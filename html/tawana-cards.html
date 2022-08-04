@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cards</title>
+    
+    <link rel="stylesheet" href="Footer.css">
+
+    <style>
+        /* 
+        #530453 - purple
+        #269ded - bright blue
+        #030303 - black
+        #273445 - greyish blue
+        #940226 - pinkish
+        #5c6b8c - faded blue
+         */
+         body {
+            background-color: #030303;
+         }
+        .cards-container {
+            margin-block: 25px;
+            margin-inline: auto;
+            max-width: 90%;
+
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            column-gap: 25px;
+            row-gap: 75px;
+        }
+        .card {
+            text-transform: uppercase;
+            width: 20rem;
+            border-radius: 1.5%;
+
+            box-shadow: 1px 1px 2.5px 1px #273445,  -1px -1px 2.5px 1px #273445;
+            flex: 0 1 auto;
+        }
+        .card:hover {
+            box-shadow: 1px 1px 20px #273445, -1px -1px 20px #273445;
+        }
+        .card__image {
+            display: block;
+            object-fit: cover;
+
+            border-top-left-radius: 1.5%;
+            border-top-right-radius: 1.5%;
+
+            height: 338px;
+            max-width: 100%;
+        }
+
+        .bottomHalf {
+            background-color: #273445;
+            display: flex;
+            justify-content: center;
+
+            /* animation: glow 1s ease-in-out infinite alternate; */
+            padding-block: 15px;
+            border-bottom-left-radius: 1.5%;
+            border-bottom-right-radius: 1.5%;
+        }
+        .bottomHalf a {
+            display: block;
+            text-align: center;
+            width: fit-content;
+            text-decoration: none;
+
+            padding: 1rem 1rem;
+            /* margin: 0 auto; */
+
+            color: #fff;
+            font-weight: bolder;
+            font-size: 14.5px;
+        }
+        .bottomHalf a:hover  {
+            text-decoration: underline;
+        }
+
+        .col_white_amrc { 
+    color:#FFF;
+}
+
+footer { 
+    width:100%; 
+    background-color:black;
+    min-height:250px;
+    padding:10px 0px 25px 0px;
+    }
+
+.pt2 { 
+    padding-top:40px;
+    margin-bottom:20px ;
+    }
+
+footer p { 
+    font-size:13px;
+    color:#CCC;
+    padding-bottom:0px;
+    margin-bottom:8px;
+}
+
+.mb10 {
+    padding-bottom:15px;
+    }
+
+.footer_ul_amrc {
+    margin:0px;
+    list-style-type:none ;
+    font-size:14px;
+    padding:0px 0px 10px 0px ; 
+    }
+
+.footer_ul_amrc li {
+    padding:0px 0px 5px 0px;
+}
+
+.footer_ul_amrc li a{
+    color:#CCC;
+    }
+
+.footer_ul_amrc li a:hover{
+    color:#fff; 
+    text-decoration:none;
+    }
+
+.fleft { 
+    float:left;
+}
+
+.padding-right { 
+    padding-right:10px; 
+}
+
+.footer_ul2_amrc {
+    margin:0px;
+     list-style-type:none; 
+     padding:0px;
+    }
+
+.footer_ul2_amrc li p { 
+    display:table;
+ }
+
+.footer_ul2_amrc li a:hover { 
+    text-decoration:none;
+}
+
+.footer_ul2_amrc li i {
+     margin-top:5px;
+    }
+
+.bottom_border { 
+    border-bottom:1px solid #323f45;
+     padding-bottom:20px;
+    }
+
+.foote_bottom_ul_amrc {
+	list-style-type:none;
+	padding:0px;
+	display:table;
+	margin-top: 10px;
+	margin-right: auto;
+	margin-bottom: 10px;
+	margin-left: auto;
+}
+.foote_bottom_ul_amrc li {
+     display:inline;
+    }
+
+.foote_bottom_ul_amrc li a {
+     color:#999;
+     margin:0 12px;}
+
+.social_footer_ul {
+    position: relative;
+    left: -90px;
+     display:table; 
+     margin:15px auto 0 auto;
+     list-style-type:none;
+      }
+
+.social_footer_ul li { 
+    padding-left:20px; 
+    padding-top:10px;
+    float:left; 
+    }
+
+.social_footer_ul li a { 
+     color:#CCC;
+     border:1px solid #CCC;
+     padding:8px;
+     border-radius:50%;
+    }
+
+.social_footer_ul li i {  
+    width:20px; 
+    height:20px;
+    text-align:center;}
+    </style>
+</head>
+
+<body>
+    <!-- Start of Cards Taiwana-->
+    <section class="cards-container">
+        <div class="card M1">
+            
+            <div class="topHalf">
+                <img class="card__image" src="assets/imgs/M1Chip.jpg" alt="computer chip, specifically apples M1 chip">
+            </div>
+            <div class="bottomHalf">
+                <a href="Kamo.html">Open Reviews &#8594;</a>
+            </div>
+        </div>
+        <div class="card drgn-keybrd">
+            
+            <div class="topHalf">
+                <img class="card__image" src="assets/imgs/dragon-keyboard.jpg" alt="red dragon keyboard">
+            </div>
+            <div class="bottomHalf">
+                <a href="Kamo.html">Open Reviews &#8594;</a>
+            </div>
+        </div>
+        <div class="card graphics-card">
+            
+            <div class="topHalf">
+                <img class="card__image" src="assets/imgs/graphics-card.jpg" alt="geforce rtx 2060 graphics card">
+            </div>
+            <div class="bottomHalf">
+                <a href="Kamo.html">Open Reviews &#8594;</a>
+            </div>
+        </div>
+        <div class="card headphones">
+            
+            <div class="topHalf">
+                <img class="card__image" src="assets/imgs/heaphones.webp" alt="headphones">
+            </div>
+            <div class="bottomHalf">
+                <a href="Kamo.html">Open Reviews &#8594;</a>
+            </div>
+        </div>
+        <div class="card ram-sticks">
+            
+            <div class="topHalf">
+                <img class="card__image" src="assets/imgs/ram-sticks.jpg" alt="ram-sticks">
+            </div>
+            <div class="bottomHalf">
+                <a href="Kamo.html">Open Reviews &#8594;</a>
+            </div>
+        </div>
+        <div class="card magsafe">
+            
+            <div class="topHalf">
+                <img class="card__image" src="assets/imgs/magsafe.jpg" alt="magsafe macbook adapter">
+            </div>
+            <div class="bottomHalf">
+                <a href="Kamo.html">Open Reviews &#8594;</a>
+            </div>
+        </div>
+    </section>
+    <!-- end of Cards Taiwana-->
+</body>
+</html>

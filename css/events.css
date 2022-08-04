@@ -1,0 +1,449 @@
+::-webkit-scrollbar{
+display: none;
+}
+
+.mySlides {
+    display: none;
+    box-shadow: 0 0  5px #fff,
+    0 0 20px #fff,
+    0 0  25px #fff;
+border-radius: 2%;
+margin-top: 50px;
+
+}
+
+
+.mySlides img {
+    vertical-align: middle;
+    width: 1000px;
+    height: 500px;
+    border-radius: 2%;
+  }
+
+
+/* Slideshow container */
+.slideshow-container {
+    width: 1000px;
+    height: 500px;
+    max-height: 500px;
+    margin: auto;
+}
+/* The dots/bullets/indicators */
+.dot {
+
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+
+}
+
+.active {
+    background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+
+    .prev,
+    .next,
+    .text {
+        font-size: 11px
+    }
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 190px;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+
+
+.flip-card {
+    background-color: transparent;
+    width: 324px;
+    height: 342px;
+    margin: 2rem;
+  
+    perspective: 1000px;
+    border-radius: 2%;
+    border: 0.1rem solid rgb(199, 196, 196);
+    box-shadow: 0 0  5px #fff,
+    0 0 20px #fff,
+    0 0  25px #fff;
+  }
+
+  .flip-card:hover{
+    box-shadow: 0 0  5px #fff,
+            0 0 20px #fff,
+            0 0  25px #fff;
+transition: 0.4s;
+  }
+  
+  .flip-card-inner {
+    position: relative;
+    /* width: 324px;
+    height: 342px; */
+    text-align: justify;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    border-radius: 2%;
+  }
+  
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    /* width: 324px;
+    height: 342px; */
+    border-radius: 2%;
+    backface-visibility: hidden;
+  }
+  
+  .flip-card-front {
+    border-radius: 2%;
+
+  }
+  
+  .flip-card-back {
+ background-color: #000;
+    color: #818181;
+    width: 320px;
+    height: 338px;
+    font-size: 17px;
+    transform: rotateY(180deg);
+    border-radius: 2%;
+  }
+ 
+
+  .flip-card-front img{
+    width: 320px;
+    height: 338px;
+    border-radius: 2%;
+   
+  }
+
+
+
+  *{
+    margin:0%;
+    padding: 0%;
+    box-sizing: border-box;
+  
+}
+
+body{
+ /* background: linear-gradient(
+    to left,
+  #000428 0%,
+  #000428 10%,
+  #004e92 90%,
+  #000428 100%
+  ); */
+
+  background: linear-gradient(
+    to left,
+  #00f 0%,
+  /* #f0f */ #F00
+  );
+color: #fff;
+}
+
+/* .page1{
+border: 0.1rem solid rgb(199, 196, 196);
+
+border-radius: 2%;  
+
+
+}
+
+.page1:hover{
+box-shadow: 0 0  5px #fff,
+            0 0 20px #fff,
+            0 0  25px #fff;
+transition: 0.4s;
+
+}
+
+.page2:hover{
+box-shadow: 0 0  5px #fff,
+            0 0 20px #fff,
+            0 0  25px #fff;
+transition: 0.4s;
+}
+
+.page3:hover{
+box-shadow: 0 0  5px #fff,
+            0 0 20px #fff,
+            0 0  25px #fff;
+transition: 0.4s;
+}
+
+.page2{
+border: 0.1rem solid rgb(199, 196, 196);
+width: 20.3rem;
+height: 21.4rem;
+border-radius: 2%; 
+margin: 1rem;
+}
+
+.page3{
+border: 0.1rem solid rgb(199, 196, 196);
+width: 20.3rem;
+height: 21.4rem;
+border-radius: 2%;
+/* box-shadow: #273445,
+margin: 1rem;
+} */
+
+.landing_page{
+display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
+
+
+}
+
+
+.logo {
+    width: 200px;
+    height: 50px;
+}
+
+.navbar {
+    background-color: black;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   position: fixed;
+   top: 0;
+   left: 0;
+   right: 0;
+   z-index: 1;
+ 
+
+   
+}
+
+.navbar a{
+    text-decoration: none;
+    color:#9b9898;
+}
+
+.navbar a:hover{
+    transition: 0.3s;
+    color:#fff;
+}
+
+.navbar-content li{
+    list-style: none;
+}
+
+.navbar-content ul{
+    display: flex;
+}
+
+.navbar-content li{
+    padding-right: 60px;
+}
+
+
+/* Footer starts header */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins',sans-serif;
+  text-decoration: none;
+}
+footer{
+  width: 100%;
+  /* position: relative;
+  bottom: 0;
+  left: 0; */
+  background: #111;
+}
+footer .content{
+  max-width: 1350px;
+  margin: auto;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+footer .content p,a{
+  color: #fff;
+}
+footer .content .box{
+  width: 33%;
+  transition: all 0.4s ease;
+}
+footer .content .topic{
+  font-size: 22px;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 16px;
+
+}
+footer .content p{
+  text-align: justify;
+}
+footer .content .lower .topic{
+  margin: 24px 0 5px 0;
+}
+footer .content .lower i{
+  padding-right: 16px;
+}
+footer .content .middle{
+  padding-left: 80px;
+}
+footer .content .middle a{
+  line-height: 32px;
+}
+footer .content .right input[type="text"]{
+  height: 45px;
+  width: 100%;
+  outline: none;
+  color: #d9d9d9;
+  background: #000;
+  border-radius: 5px;
+  padding-left: 10px;
+  font-size: 17px;
+  border: 2px solid #222222;
+}
+footer .content .right input[type="submit"]{
+  height: 42px;
+  width: 100%;
+  font-size: 18px;
+  color: #d9d9d9;
+  background: #eb2f06;
+  outline: none;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  margin-top: 12px;
+  border: 2px solid #eb2f06;
+  transition: all 0.3s ease-in-out;
+}
+.content .right input[type="submit"]:hover{
+  background: none;
+  color:  #eb2f06;
+}
+footer .content .media-icons a{
+  font-size: 16px;
+  height: 45px;
+  width: 45px;
+  display: inline-block;
+  text-align: center;
+  line-height: 43px;
+  border-radius: 5px;
+  border: 2px solid #222222;
+  margin: 30px 5px 0 0;
+  transition: all 0.3s ease;
+}
+.content .media-icons a:hover{
+  border-color: #eb2f06;
+}
+footer .bottom{
+  width: 100%;
+  text-align: center;
+  color: #d9d9d9;
+  padding: 0 40px 5px 22px;
+}
+footer .bottom a{
+  color: #eb2f06;
+}
+footer a{
+  transition: all 0.3s ease;
+}
+footer a:hover{
+  color: #eb2f06;
+}
+@media (max-width:1100px) {
+  footer .content .middle{
+    padding-left: 50px;
+  }
+}
+@media (max-width:950px){
+  footer .content .box{
+    width: 50%;
+  }
+  .content .right{
+    margin-top: 40px;
+  }
+}
+@media (max-width:560px){
+  footer{
+    position: relative;
+  }
+  footer .content .box{
+    width: 100%;
+    margin-top: 30px;
+  }
+  footer .content .middle{
+    padding-left: 0;
+  }
+}
+ 
+
+/* The footer stops here */

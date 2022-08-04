@@ -1,0 +1,55 @@
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --blue-gradient: linear-gradient(to right, #000428 0%, #004e92 100%);
+    --richfield-red: #e74033;
+}
+body {
+    background-color: #111;
+}
+.start-ups {
+    margin-block: 50px;
+}
+.wrapper {
+    margin-block: 25px;
+    margin-inline: auto;
+    max-width: 90%;
+
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    column-gap: 25px;
+    row-gap: 75px;
+}
+.card__team {
+    text-transform: uppercase;
+    text-align: center;
+    width: 20rem;
+    border-radius: 1.5%;
+
+    box-shadow: 1px 1px 2.5px 1px #273445,  -1px -1px 2.5px 1px #273445;
+    flex: 0 1 auto;
+}
+.card__team:hover {
+    box-shadow: 1px 1px 20px #273445, -1px -1px 20px #273445;
+}
+.card__image {
+    display: block;
+    object-fit: cover;
+    width: 100%;
+    margin: 0 auto;
+}
+.card__text {
+    padding-block: 25px;
+    background: var(--blue-gradient);
+}
+.card__text a {
+    color: #fff;
+    text-decoration: none;
+}
+.card__text a:hover {
+    border-bottom: 2px solid var(--richfield-red);
+}
