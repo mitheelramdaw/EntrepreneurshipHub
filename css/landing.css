@@ -22,7 +22,8 @@
     --txt-lrg: 1.38rem;
     --heading-sml: 1.75rem;
     --heading-med: 2rem;
-    --heading-lrg: 2.3rem;
+    /* --heading-lrg: 2.3rem; */ /* ORIGINAL SIZE ENTREP HEADING*/
+    --heading-lrg: 3.0rem; /* NEW SIZE*/
 
     /* colours */
     --blue: #0044ff;
