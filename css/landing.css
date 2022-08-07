@@ -42,12 +42,12 @@ body {
 .headerImages {
     display: flex;
     gap: 1px;
-    height: 180px;
+    height: 150px;
 }
 .headerImages > * {
     display: block;
     width: 50%;
-    height: 87%;
+    height: 100%;
 }
 .contain {
     /* padding-inline: 80px; */
