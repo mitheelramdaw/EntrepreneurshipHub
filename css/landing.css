@@ -39,6 +39,16 @@ body {
     font-size: var(--txt-sml);
     text-align: justify;
 }
+.headerImages {
+    display: flex;
+    gap: 1px;
+    height: 180px;
+}
+.headerImages > * {
+    display: block;
+    width: 50%;
+    height: 87%;
+}
 .contain {
     /* padding-inline: 80px; */
     width: 95%;
@@ -53,17 +63,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-}
-.navbar h1 {
-    border-block: 3px solid var(--dark-blue);
-    font-size: var(--heading-med);
-    font-weight: 900;
-    padding: 15px;
-    cursor: pointer;
-}
-.navbar h1:hover {
-    color: #fff;
-    border-block: 3px solid #fff;
 }
 .navbar a {
     display: block;
