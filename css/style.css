@@ -67,7 +67,9 @@ section {
     overflow: hidden;
     z-index: 0;
 }
-
+.btn:hover {
+    background: var(--richfield-red);
+}
 .btn::before {
     content: '';
     position: absolute;
