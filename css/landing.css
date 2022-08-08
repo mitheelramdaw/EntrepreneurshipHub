@@ -22,8 +22,7 @@
     --txt-lrg: 1.38rem;
     --heading-sml: 1.75rem;
     --heading-med: 2rem;
-    /* --heading-lrg: 2.3rem; */ /* ORIGINAL SIZE ENTREP HEADING*/
-    --heading-lrg: 3.0rem; /* NEW SIZE*/
+    --heading-lrg: 2.3rem;
 
     /* colours */
     --blue: #0044ff;
@@ -39,16 +38,6 @@ body {
     font-size: var(--txt-sml);
     text-align: justify;
 }
-.headerImages {
-    display: flex;
-    gap: 1px;
-    height: 150px;
-}
-.headerImages > * {
-    display: block;
-    width: 50%;
-    height: 100%;
-}
 .contain {
     /* padding-inline: 80px; */
     width: 95%;
@@ -63,6 +52,17 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.navbar h1 {
+    border-block: 3px solid var(--dark-blue);
+    font-size: var(--heading-med);
+    font-weight: 900;
+    padding: 15px;
+    cursor: pointer;
+}
+.navbar h1:hover {
+    color: #fff;
+    border-block: 3px solid #fff;
 }
 .navbar a {
     display: block;
