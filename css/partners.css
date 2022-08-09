@@ -165,7 +165,8 @@ body {
     /* box-shadow: 1px 1px 20px rgb(212, 39, 39), -1px -1px 20px rgb(109, 26, 26); */
     transform: scale(1.1);
     background-image: linear-gradient(to left, #000428 0%, #004e92 100%);
-    color: black;
+    /* color: black; */
+    color: white;
 }
 .card h3 {
     text-align: center;
