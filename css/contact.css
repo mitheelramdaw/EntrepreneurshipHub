@@ -38,7 +38,7 @@ body{
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
   background: linear-gradient(to right, #000428 0%, #004e92 100%);
   margin-left: 95px; /* MOVES FORM TO CENTRE OF PAGE INSTED FIXED TO LEFT*/
-  margin-top: 10px;  /* MOVES FOR TO CENTRE OF PAGE INSTED FIXED TO TOP - ADJUST WHEN NAV INSERTED */
+  margin-top: 5%;  /* MOVES FOR TO CENTRE OF PAGE INSTED FIXED TO TOP - ADJUST WHEN NAV INSERTED */
 }
 .container .content{
   display: flex;

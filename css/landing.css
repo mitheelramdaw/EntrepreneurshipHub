@@ -30,10 +30,12 @@
     --dark-blue: #000428;
     --richfield-red: #e74033;
     --blue-gradient: linear-gradient(to left, #000428 0%, #004e92 100%);
+    --background: linear-gradient(to left,#00f 0%,/* #f0f */ #39FF14);
+    --background-reverse: linear-gradient(to right,#00f 0%,/* #f0f */ #39FF14);
 }
 body {
     color: var(--dark-blue);
-    /* background: #111; */
+    background: var(--background);
     font-family: var(--ff-sans-serif);
     font-size: var(--txt-sml);
     text-align: justify;
@@ -46,7 +48,8 @@ body {
 .navbar {
     font-size: 18px;
     padding-block: 15px;
-    background: var(--blue-gradient);
+    background: var(--background);
+    box-shadow: 0 .1rem .3rem rgba(0, 0, 0, .3);
     width: 100%;
 
     display: flex;
