@@ -31,12 +31,19 @@
     --richfield-red: #e74033;
 
     /* gradients */
-    --orange-black: linear-gradient(to top left, rgb(240,126,25) 70%, rgb(20,20,20) 30%);
-    --black-dark-grey: linear-gradient(to top right, rgb(135,135,135) 70%, rgb(20,20,20) 30%);
-    --black-teal: linear-gradient(to top right, rgb(20,20,20) 70%, rgb(0,125,122) 30%);
-    --teal-orange: linear-gradient(to left, rgb(0,125,122) 95%, rgb(240,126,25) 5%);
-    --blue-gradient: linear-gradient(-90deg, #000428, #004e92);
-    --background: linear-gradient(to left,#00f 0%,/* #f0f */ #39FF14);
+    --orange-black: 
+    linear-gradient(to top left, rgb(240,126,25) 70%, rgb(20,20,20) 30%);
+    --teal-orange: 
+    linear-gradient(to left, rgb(0,125,122) 95%, rgb(240,126,25) 5%);
+    --black-teal: 
+    linear-gradient(to top right, rgb(20,20,20) 70%, rgb(0,125,122) 30%);
+
+    --black-dark-grey: 
+    linear-gradient(to top right, rgb(135,135,135) 70%, rgb(20,20,20) 30%);
+    --blue-gradient: 
+    linear-gradient(-90deg, #000428, #004e92);
+    --background: 
+    linear-gradient(to left,#00f 0%,/* #f0f */ #39FF14);
 }
 
 * {
