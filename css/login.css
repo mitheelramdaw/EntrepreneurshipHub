@@ -30,7 +30,8 @@ body{
   justify-content: center;
   /* background: linear-gradient(to left, #000428 0%, #004e92 100%); */
 
-  background: linear-gradient(to left, #000428 0%, #004e92 100%);
+  /* background: linear-gradient(to left, #000428 0%, #004e92 100%); */
+  background: linear-gradient( to right, rgb(40, 40, 40) 40%, #00f  );
 }
 
 .container{

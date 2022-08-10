@@ -29,7 +29,8 @@ body{
   align-items: center;
   justify-content: center;
   /* background: linear-gradient(to left, #000428 0%, #004e92 100%); */ /* OLD COLOURS*/
-  background: linear-gradient( to left, #00f 0%, #39FF14 );
+  /* background: linear-gradient( to right, #00f 0%, rgb(40, 40, 40)  ); */
+  background: linear-gradient( to right, rgb(40, 40, 40) 40%, #00f  );
 }
 .container{
   width: 85%;
@@ -38,7 +39,9 @@ body{
   padding: 20px 60px 30px 40px;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
   /* background: linear-gradient(to right, #000428 0%, #004e92 100%); OLD COLOURS */
-  background: linear-gradient( to right, #00f 0%, #39FF14 );
+  /* background: linear-gradient( to right, #00f 0%, #002daa ); */
+  background: linear-gradient( to right, #002daa 0%, #00f );
+  /* background: #00f; */
   margin-left: 95px; /* MOVES FORM TO CENTRE OF PAGE INSTED FIXED TO LEFT*/
   margin-top: 5%;  /* MOVES FOR TO CENTRE OF PAGE INSTED FIXED TO TOP - ADJUST WHEN NAV INSERTED */
 }
@@ -75,7 +78,7 @@ body{
 .content .left-side .details i{
   font-size: 30px;
   /* color: #3e2093; */
-  color: red;
+  color: rgb(51, 255, 0);
   margin-bottom: 10px;
 }
 .content .left-side .details .topic{
@@ -96,7 +99,7 @@ body{
   font-size: 23px;
   font-weight: 600;
   /* color: #3e2093; */
-  color: red;
+  color: rgb(51, 255, 0); /* CHANGES COLOUR OF SEND MSG HEADING*/
 }
 .right-side .input-box{
   height: 50px;
@@ -143,13 +146,13 @@ body{
   border: none;
   padding: 8px 16px;
   border-radius: 6px;
-  background: red; /* colour of btn*/
+  background: rgb(49, 235, 2);/* colour of btn*/
   cursor: pointer;
   transition: all 0.3s ease;
 }
 .button input[type="button"]:hover{
   background: black; /* changes color on hover of btn*/
-  color: red;
+  color: rgb(51, 255, 0);
 }
 
 @media (max-width: 950px) {

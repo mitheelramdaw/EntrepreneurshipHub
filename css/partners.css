@@ -37,7 +37,8 @@
 }
 body {
     color: #fff;
-    background-color: #131313;
+    /* background-color: #131313; */
+    background: linear-gradient( to right, rgb(40, 40, 40) 40%, #00f  );
     font-size: var(--16px);
     font-family: var(--ff-sans-serif);
 }
@@ -102,7 +103,8 @@ body {
 
 /* product-description */
 .product-description{
-    background-image: linear-gradient(to left, #000428 0%, #004e92 100%);
+    /* background-image: linear-gradient(to left, #000428 0%, #004e92 100%); */
+    background: linear-gradient( to right, rgb(40, 40, 40) 40%, #00f  );
 }
 .product-description .container {
     overflow: visible;
