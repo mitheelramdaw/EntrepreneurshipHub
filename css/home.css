@@ -20,8 +20,8 @@
     --richfield-red: #e74033;
     --blue-gradient: linear-gradient(-90deg, #000428, #004e92);
 
-    --background: linear-gradient(to left,#00f 0%,/* #f0f */ #39FF14
-  );
+    --background:  linear-gradient( to right, rgb(40, 40, 40) 40%, #00f  );
+  
 color: #fff;
 }
 
@@ -48,7 +48,8 @@ html {
     font-size: 65%;
     overflow-x: hidden;
     color: #fff;
-    background: var(--background);
+    /* background: var(--background); */
+    background: linear-gradient( to right, rgb(40, 40, 40) 40%, #00f  );
 }
 
 section {

@@ -192,12 +192,7 @@ body{
   #000428 100%
   ); */
 
-  background: linear-gradient(
-    to left,
-  #00f 0%,
-  /* #f0f */ #F00
-  );
-color: #fff;
+  background: linear-gradient( to right, rgb(40, 40, 40) 40%, #00f  );
 }
 
 /* .page1{

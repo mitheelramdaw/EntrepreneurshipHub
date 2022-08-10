@@ -75,7 +75,8 @@ transition: 0.4s;
 }
 
 body{
-background: linear-gradient( to left, #00f 0%, #39FF14 );
+/* background: linear-gradient( to left, #00f 0%, #39FF14 ); */
+background: linear-gradient( to right, rgb(40, 40, 40) 40%, #00f  );
 color: #fff;
 }
 

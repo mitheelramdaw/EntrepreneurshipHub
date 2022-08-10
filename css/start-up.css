@@ -11,7 +11,8 @@
     --background-reverse: linear-gradient(to right, 0%,/* #f0f */ #39FF14);
 }
 body {
-    background-color: #111;
+    /* background-color: #111; */
+    background: linear-gradient( to right, rgb(40, 40, 40) 40%, #00f  );
 }
 .start-ups {
     margin-block: 50px;
