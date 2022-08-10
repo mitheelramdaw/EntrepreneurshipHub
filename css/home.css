@@ -14,21 +14,24 @@
     --heading-lrg: 3rem;
 
     /* colours */
-    --primary-blue: rgba(32,93,145);
-    --primary-dark-grey: rgba(135,135,135);
+    --primary-blue: #205d91;
+    --primary-dark-grey: #878786;
     
-    --secondary-purple: rgba(80,66,113);
-    --secondary-green: rgba(89,253,61);
-    --secondary-teal: rgba(0,125,122);
-    --secondary-orange: rgba(240,126,25);
-    --secondary-yellow: rgba(243,196,0);
-    --secondary-red: rgba(183,25,75);
+    --secondary-purple: #504171;
+    --secondary-green: #007d7a;
+    --secondary-teal: #59993d;
+    --secondary-orange: #f07e19;
+    --secondary-yellow: #f2c400;
+    --secondary-red: #b61823;
 
     --black: rgba(20,20,20);
     --blue: #0044ff;
     --dark-blue: #000428;
     --light-blue: #004e92;
     --richfield-red: #e74033;
+    --blue-gradient: linear-gradient(-90deg, #000428, #004e92);
+    --background:  linear-gradient( to right, rgb(40, 40, 40) 40%, #00f  );
+    --background-reverse:  linear-gradient( to left, rgb(40, 40, 40) 40%, #00f  );
 }
 * {
     box-sizing: border-box;
@@ -52,6 +55,8 @@
 html {
     font-size: 65%;
     overflow-x: hidden;
+    color: #fff;
+    background: var(--background);
 }
 
 section {
@@ -68,7 +73,7 @@ section {
     color: inherit;
     cursor: pointer;
     border-radius: 1.5rem;
-    background: var(--secondary-orange);
+    background: var(--richfield-red);
     box-shadow: 0 .1rem .3rem rgba(0, 0, 0, .3);
 
     position: relative;
@@ -88,7 +93,7 @@ section {
 header {
     width: 100%;
     padding: 1.5rem 7%;
-    background: var(--teal-orange);
+    background: var(--background);
     box-shadow: 0 .1rem .3rem rgba(0, 0, 0, .3);
 
     display: flex;
@@ -129,7 +134,7 @@ header .header-nav ul li a {
 
 header .header-nav ul li a.active,
 header .header-nav ul li a:hover {
-    border-bottom: 2px solid var(--secondary-orange);
+    border-bottom: 2px solid var(--richfield-red);
 }
 
 header #login,
@@ -140,7 +145,7 @@ header #menu {
 }
 
 header #login:hover {
-    color: var(--secondary-orange);
+    color: var(--richfield-red);
 }
 
 header #menu {
@@ -421,7 +426,7 @@ header #menu {
     font-weight: 600;
     font-size: 1.9rem;
 
-    color: inherit;
+    color: black;
     background: #eee;
     border-radius: 5rem;
 
@@ -446,10 +451,11 @@ header #menu {
     font-size: 5rem;
     width: fit-content;
 
-    padding: 2rem 5rem;
-    background: var(--teal-orange);
-    border-radius: 2.5rem;
-    box-shadow: 0 .1rem .3rem rgb(0,0,0, .3);
+    padding: 2rem 25rem;
+    background: var(--background);
+    margin: 0 auto;
+    border-radius: 1.5rem;
+    box-shadow: 0 .1rem .3rem rgb(0,0,0, .6);
 }
 
 .slider-wrapper {
@@ -457,8 +463,8 @@ header #menu {
     align-items: center;
     justify-content: center;
     margin: 25px auto;
-    box-shadow: 0 .1rem .3rem rgb(0,0,0, .3);
-    background: var(--black-teal);
+    /* box-shadow: 0 .1rem .3rem rgb(0,0,0, .3); */
+    /* background: var(--background); */
     border-radius: 5rem;
     padding-block: 8rem;
 }
@@ -505,7 +511,7 @@ header #menu {
     height: 100%;
     scroll-behavior:smooth;
     scroll-snap-align: start;
-    background: var(--secondary-orange);
+    background: #fff;
     border-radius: 2.5rem;
 }
 
@@ -530,7 +536,7 @@ header #menu {
 }
 
 .slide .content .btn:hover {
-    background: var(--secondary-orange);
+    background: var(--richfield-red);
     color: #000;
     font-weight: 600;
     outline: 2px solid #000;
@@ -575,16 +581,15 @@ header #menu {
     text-align: justify;
 
     border-radius: 10px;
-    background: var(--black-dark-grey);
+    background: var(--black);
     padding: 80px;
     width: 550px;
     height: 500px;
 }
 .vision-mission .content h3 {
     font-size: 6rem;
-    border-bottom: 3px solid var(--secondary-orange);
+    border-bottom: 3px solid var(--richfield-red);
     margin-bottom: 20px;
-    color: #000;
 }
 /* vision-mission ends */
 
@@ -669,12 +674,12 @@ footer .content .right input[type="submit"] {
     letter-spacing: 1px;
     cursor: pointer;
     margin-top: 12px;
-    border: 2px solid var(--secondary-orange);
+    border: 2px solid var(--richfield-red);
     transition: all 0.3s ease-in-out;
 }
 
 .content .right input[type="submit"]:hover {
-    background-color: var(--secondary-orange);
+    background-color: var(--richfield-red);
     color: var(--black);
 }
 
@@ -692,7 +697,7 @@ footer .content .media-icons a {
 }
 
 .content .media-icons a:hover {
-    border-color: var(--secondary-orange);
+    border-color: var(--richfield-red);
 }
 
 footer .bottom {
@@ -703,7 +708,7 @@ footer .bottom {
 }
 
 footer .bottom a {
-    color: var(--secondary-orange);
+    color: var(--richfield-red);
 }
 
 footer a {
@@ -711,7 +716,7 @@ footer a {
 }
 
 footer a:hover {
-    color: var(--secondary-orange);
+    color: var(--richfield-red);
 }
 
 .footerImages {
