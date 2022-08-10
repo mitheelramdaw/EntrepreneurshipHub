@@ -24,14 +24,17 @@
     --secondary-yellow: rgba(243,196,0);
     --secondary-red: rgba(183,25,75);
 
+    --black: rgba(20,20,20);
     --blue: #0044ff;
     --dark-blue: #000428;
     --light-blue: #004e92;
     --richfield-red: #e74033;
 
     /* gradients */
-    --orange-grey: linear-gradient(to top left, rgb(240,126,25) 70%, rgb(135,135,135) 10%);
-    --orange-grey-50: linear-gradient(to right, rgb(240,126,25) 50%, rgb(135,135,135) 50%);
+    --orange-black: linear-gradient(to top left, rgb(240,126,25) 70%, rgb(20,20,20) 30%);
+    --black-dark-grey: linear-gradient(to top right, rgb(135,135,135) 70%, rgb(20,20,20) 30%);
+    --black-teal: linear-gradient(to top right, rgb(20,20,20) 70%, rgb(0,125,122) 30%);
+    --teal-orange: linear-gradient(to left, rgb(0,125,122) 95%, rgb(240,126,25) 5%);
     --blue-gradient: linear-gradient(-90deg, #000428, #004e92);
     --background: linear-gradient(to left,#00f 0%,/* #f0f */ #39FF14);
 }
@@ -59,7 +62,7 @@ html {
     font-size: 65%;
     overflow-x: hidden;
     color: #000;
-    background: var(--orange-grey);
+    background: var(--orange-black);
 }
 
 section {
@@ -75,8 +78,8 @@ section {
 
     color: inherit;
     cursor: pointer;
-    border-radius: 5rem;
-    background: var(--primary-dark-grey);
+    border-radius: 1.5rem;
+    background: var(--secondary-orange);
     box-shadow: 0 .1rem .3rem rgba(0, 0, 0, .3);
 
     position: relative;
@@ -84,7 +87,7 @@ section {
     z-index: 0;
 }
 .btn:hover {
-    background: var(--secondary-teal);
+    background: var(--primary-dark-grey);
 }
 
 
@@ -96,7 +99,7 @@ section {
 header {
     width: 100%;
     padding: 1.5rem 7%;
-    background: var(--secondary-orange);
+    background: var(--teal-orange);
     box-shadow: 0 .1rem .3rem rgba(0, 0, 0, .3);
 
     display: flex;
@@ -115,7 +118,7 @@ header .logo {
 }
 header .logo img {
     width: 50px;
-    background: var(--orange-grey-50)
+    background: var(--primary-dark-grey);
 }
 
 header .header-nav ul {
@@ -137,7 +140,7 @@ header .header-nav ul li a {
 
 header .header-nav ul li a.active,
 header .header-nav ul li a:hover {
-    border-bottom: 2px solid var(--richfield-red);
+    border-bottom: 2px solid var(--secondary-orange);
 }
 
 header #login,
@@ -148,7 +151,7 @@ header #menu {
 }
 
 header #login:hover {
-    color: var(--richfield-red);
+    color: var(--secondary-orange);
 }
 
 header #menu {
@@ -430,7 +433,7 @@ header #menu {
     font-size: 1.9rem;
 
     color: inherit;
-    background: var(--orange-grey);
+    background: #eee;
     border-radius: 5rem;
 
     display: flex;
@@ -447,11 +450,17 @@ header #menu {
 
 /* what we offer section */
 .offering {
-    padding-block: 150px;
+    padding-bottom: 150px;
 }
 .offering h2 {
     text-align: center;
     font-size: 5rem;
+    width: fit-content;
+
+    padding: 2rem 5rem;
+    background: var(--teal-orange);
+    border-radius: 2.5rem;
+    box-shadow: 0 .1rem .3rem rgb(0,0,0, .3);
 }
 
 .slider-wrapper {
@@ -459,6 +468,10 @@ header #menu {
     align-items: center;
     justify-content: center;
     margin: 25px auto;
+    box-shadow: 0 .1rem .3rem rgb(0,0,0, .3);
+    background: var(--black-teal);
+    border-radius: 5rem;
+    padding-block: 8rem;
 }
 
 .slider-wrapper .slider-nav {
@@ -497,13 +510,14 @@ header #menu {
 }
 
 .slide {
+    color: #000;
     flex-shrink: 0;
     width: 100%;
     height: 100%;
     scroll-behavior:smooth;
     scroll-snap-align: start;
-    background-color: #fff;
-    color: #000;
+    background: var(--secondary-orange);
+    border-radius: 2.5rem;
 }
 
 .slide .content {
@@ -520,12 +534,17 @@ header #menu {
 
 .slide .content .btn {
     text-align: center;
-    margin-block: 10px;
+    margin-block: 30px;
     width: 100%;
+    color: #fff;
+    background-color: #000;
 }
 
 .slide .content .btn:hover {
-    background: var(--richfield-red);
+    background: var(--secondary-orange);
+    color: #000;
+    font-weight: 600;
+    outline: 2px solid #000;
 }
 
 .slide .content .btn a {
@@ -536,7 +555,9 @@ header #menu {
     object-fit: cover;
     width: 650px;
     height: 400px;
-    border-bottom: 2px solid #000;
+    /* border-bottom: 2px solid #000; */
+    border-top-left-radius: 2.5rem;
+    border-top-right-radius: 2.5rem;
 }
 
 .slide .content p {
@@ -557,14 +578,15 @@ header #menu {
     align-items: center;
     flex-wrap: wrap;
     gap: 50px;
+    color: #fff;
 }
 .vision-mission .content {
     flex: 1 1 40rem;
-    font-size: 2rem;
+    font-size: 1.7rem;
     text-align: justify;
 
     border-radius: 10px;
-    background: #121212;
+    background: var(--black-dark-grey);
     padding: 80px;
     width: 550px;
     height: 500px;
@@ -573,6 +595,7 @@ header #menu {
     font-size: 6rem;
     border-bottom: 3px solid var(--secondary-orange);
     margin-bottom: 20px;
+    color: #000;
 }
 /* vision-mission ends */
 
@@ -651,19 +674,19 @@ footer .content .right input[type="submit"] {
     width: 100%;
     font-size: 18px;
     color: #d9d9d9;
-    background: #eb2f06;
+    background: var(--black);
     outline: none;
     border-radius: 5px;
     letter-spacing: 1px;
     cursor: pointer;
     margin-top: 12px;
-    border: 2px solid #eb2f06;
+    border: 2px solid var(--secondary-orange);
     transition: all 0.3s ease-in-out;
 }
 
 .content .right input[type="submit"]:hover {
-    background: none;
-    color: #eb2f06;
+    background-color: var(--secondary-orange);
+    color: var(--black);
 }
 
 footer .content .media-icons a {
@@ -680,7 +703,7 @@ footer .content .media-icons a {
 }
 
 .content .media-icons a:hover {
-    border-color: #eb2f06;
+    border-color: var(--secondary-orange);
 }
 
 footer .bottom {
@@ -691,7 +714,7 @@ footer .bottom {
 }
 
 footer .bottom a {
-    color: #eb2f06;
+    color: var(--secondary-orange);
 }
 
 footer a {
@@ -699,7 +722,7 @@ footer a {
 }
 
 footer a:hover {
-    color: #eb2f06;
+    color: var(--secondary-orange);
 }
 
 .footerImages {
