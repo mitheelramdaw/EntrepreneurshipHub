@@ -6,6 +6,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 
 html{
+  /* colors */
+  --primary-blue: #205d91;
+  --primary-dark-grey: #878786;
+  
+  --secondary-purple: #504171;
+  --secondary-green: #007d7a;
+  --secondary-teal: #59993d;
+  --secondary-orange: #f07e19;
+  --secondary-yellow: #f2c400;
+  --secondary-red: #b61823;
+
+  --black: rgba(20,20,20);
+  --blue: #0044ff;
+  --dark-blue: #000428;
+  --light-blue: #004e92;
+  --richfield-red: #e74033;
+  --blue-gradient: linear-gradient(-90deg, #000428, #004e92);
+  --background:  linear-gradient( to right, rgb(40, 40, 40) 40%, #00f  );
+  --background-reverse:  linear-gradient( to left, rgb(40, 40, 40) 40%, #00f  );
   --blue: #0044ff;
   --light-blue: #004e92;
   --dark-blue: #000428;
@@ -40,7 +59,7 @@ body{
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
   /* background: linear-gradient(to right, #000428 0%, #004e92 100%); OLD COLOURS */
   /* background: linear-gradient( to right, #00f 0%, #002daa ); */
-  background: linear-gradient( to right, #002daa 0%, #00f );
+  background: var(--blue-gradient);
   /* background: #00f; */
   margin-left: 95px; /* MOVES FORM TO CENTRE OF PAGE INSTED FIXED TO LEFT*/
   margin-top: 5%;  /* MOVES FOR TO CENTRE OF PAGE INSTED FIXED TO TOP - ADJUST WHEN NAV INSERTED */
