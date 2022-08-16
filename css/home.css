@@ -448,14 +448,14 @@ header #menu {
 }
 .offering h2 {
     text-align: center;
-    font-size: 5rem;
+    font-size: 10rem;
     width: fit-content;
-
-    padding: 2rem 25rem;
-    background: var(--background);
     margin: 0 auto;
-    border-radius: 1.5rem;
-    box-shadow: 0 .1rem .3rem rgb(0,0,0, .6);
+
+    /* padding: .5rem 25rem; */
+    /* background: var(--background); */
+    /* border-radius: 1.5rem; */
+    /* box-shadow: 0 .1rem .3rem rgb(0,0,0, .6); */
 }
 
 .slider-wrapper {
@@ -466,7 +466,7 @@ header #menu {
     /* box-shadow: 0 .1rem .3rem rgb(0,0,0, .3); */
     /* background: var(--background); */
     border-radius: 5rem;
-    padding-block: 8rem;
+    /* padding-block: 8rem; */
 }
 
 .slider-wrapper .slider-nav {
@@ -588,7 +588,7 @@ header #menu {
 }
 .vision-mission .content h3 {
     font-size: 6rem;
-    border-bottom: 3px solid var(--richfield-red);
+    border-bottom: 3px solid var(--secondary-teal);
     margin-bottom: 20px;
 }
 /* vision-mission ends */
