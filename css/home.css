@@ -422,6 +422,11 @@ header #menu {
     color: #fff;
     /* border-bottom: 5px solid white; */
 }
+.home h1 span{
+    color: #0044ff;
+    /* color: #00f; */
+    font-size: 6rem;
+}
 
 .home p {
     width: 70rem;
