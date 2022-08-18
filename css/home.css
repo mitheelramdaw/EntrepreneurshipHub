@@ -24,7 +24,8 @@
     --secondary-yellow: #f2c400;
     --secondary-red: #b61823;
 
-    --tio-green: rgb(102, 255, 0);
+    --tio-green: rgb(102, 255, 0) ; 
+    --tio-new-green: rgb(51, 255, 0);
     --black: rgba(20,20,20);
     --blue: #0044ff;
     --dark-blue: #000428;
@@ -545,8 +546,8 @@ header #menu {
 }
 
 .slide .content .btn:hover {
-    background: var(--tio-green);
-    color: #000;
+    background: var(--black);
+    color: var(--tio-new-green) ;
     font-weight: 600;
     outline: 2px solid #000;
 }
@@ -669,7 +670,7 @@ footer .content .right input[type="text"] {
     border-radius: 5px;
     padding-left: 10px;
     font-size: 17px;
-    border: 2px solid #222222;
+    border: 2px solid var(--tio-new-green);
 }
 
 footer .content .right input[type="submit"] {
@@ -683,12 +684,12 @@ footer .content .right input[type="submit"] {
     letter-spacing: 1px;
     cursor: pointer;
     margin-top: 12px;
-    border: 2px solid var(--richfield-red);
+    border: 2px solid var(--tio-new-green);
     transition: all 0.3s ease-in-out;
 }
 
 .content .right input[type="submit"]:hover {
-    background-color: var(--richfield-red);
+    background-color: var(--tio-new-green);
     color: var(--black);
 }
 
@@ -706,7 +707,7 @@ footer .content .media-icons a {
 }
 
 .content .media-icons a:hover {
-    border-color: var(--richfield-red);
+    border-color: var(--tio-new-green);
 }
 
 footer .bottom {
@@ -717,7 +718,7 @@ footer .bottom {
 }
 
 footer .bottom a {
-    color: var(--richfield-red);
+    color: var(--tio-new-green);
 }
 
 footer a {
@@ -725,7 +726,7 @@ footer a {
 }
 
 footer a:hover {
-    color: var(--richfield-red);
+    color: var(--tio-new-green);
 }
 
 .footerImages {

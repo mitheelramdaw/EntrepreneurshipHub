@@ -49,7 +49,7 @@ body {
     font-size: 18px;
     padding-block: 15px;
     /* background: var(--background); */
-    background: linear-gradient( to right, #002daa 0%, #00f ); /* NAV BAR BACKGROUND*/
+    background: linear-gradient( to right, rgb(40, 40, 40) 40%, #00f  ); /* NAV BAR BACKGROUND*/
     box-shadow: 0 .1rem .3rem rgba(0, 0, 0, .3);
     width: 100%;
 
@@ -94,7 +94,7 @@ body {
     text-decoration: none;
 }
 .navigation a:hover {
-    border-bottom: 2px solid var(--richfield-red);
+    border-bottom: 2px solid rgb(51, 255, 0);
     transition: all 0.1s ease;
 }
 

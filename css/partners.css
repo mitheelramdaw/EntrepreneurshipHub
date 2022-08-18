@@ -63,7 +63,7 @@ body {
     font-size: var(--20px);
     padding-block: 20px;
     width: 100%;
-    /* background: #111; */
+    background: linear-gradient( to right, rgb(40, 40, 40) 40%, #00f  );
 }
 .nav {
     height: 100%;
@@ -96,7 +96,7 @@ body {
     border-radius: 4px;
 } */
 .nav-list .list-item:hover {
-    border-bottom: 2px solid var(--richfield-red);
+    border-bottom: 2px solid rgb(51, 255, 0);
     transition: all 0.1s ease;
     /* color: var(--dark-purplish);
     text-decoration: underline; */
