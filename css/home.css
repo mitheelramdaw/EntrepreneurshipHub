@@ -24,6 +24,7 @@
     --secondary-yellow: #f2c400;
     --secondary-red: #b61823;
 
+    --tio-green: rgb(102, 255, 0);
     --black: rgba(20,20,20);
     --blue: #0044ff;
     --dark-blue: #000428;
@@ -73,7 +74,7 @@ section {
     color: inherit;
     cursor: pointer;
     border-radius: 1.5rem;
-    background: var(--richfield-red);
+    background: var(--blue);
     box-shadow: 0 .1rem .3rem rgba(0, 0, 0, .3);
 
     position: relative;
@@ -83,7 +84,10 @@ section {
 .btn:hover {
     background: var(--primary-dark-grey);
 }
-
+.home .btn:hover {
+    background: var(--primary-dark-grey);
+    color: #000;
+}
 
 .btn:hover::before {
     transition: .2s linear;
@@ -112,9 +116,9 @@ header .logo {
 }
 header .logo img {
     width: 50px;
+    height: 50px;
     background: var(--primary-dark-grey);
 }
-
 header .header-nav ul {
     display: flex;
     align-items: center;
@@ -134,18 +138,18 @@ header .header-nav ul li a {
 
 header .header-nav ul li a.active,
 header .header-nav ul li a:hover {
-    border-bottom: 2px solid var(--richfield-red);
+    border-bottom: 2px solid var(--tio-green);
 }
 
 header #login,
 header #menu {
-    font-size: var(--heading-lrg);
+    font-size: var(--heading-med);
     color: #fff;
     cursor: pointer;
 }
 
 header #login:hover {
-    color: var(--richfield-red);
+    color: var(--tio-green);
 }
 
 header #menu {
@@ -444,7 +448,7 @@ header #menu {
 
 /* what we offer section */
 .offering {
-    padding-bottom: 150px;
+    padding-bottom: 50px;
 }
 .offering h2 {
     text-align: center;
@@ -488,7 +492,7 @@ header #menu {
 }
 
 .slider-nav a:hover {
-    background: var(--background);
+    background: var(--tio-green);
     color: #fff;
 }
 
@@ -536,7 +540,7 @@ header #menu {
 }
 
 .slide .content .btn:hover {
-    background: var(--richfield-red);
+    background: var(--tio-green);
     color: #000;
     font-weight: 600;
     outline: 2px solid #000;
