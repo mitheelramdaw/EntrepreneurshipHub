@@ -57,11 +57,24 @@ transition: 0.4s;
 
   }
  
+.button-card{
+  background-color: #000;
+  width: 320px;
+  color:#fff;
+  height:40px;
+ border-bottom-left-radius: 5px;
+ border-bottom-right-radius: 5px;
+ margin-top: 300px;
+ padding-top: 10px;
+ text-align: center;
+}
 
   .flip-card-front img{
+    position: absolute;
     width: 320px;
-    height: 338px;
-    border-radius: 2%;
+    height: 300px;
+    border-top-left-radius: 5px;
+ border-top-right-radius: 5px;
    
   }
 
