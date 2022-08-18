@@ -101,8 +101,13 @@ footer .bottom{
   color: #d9d9d9;
   padding: 0 40px 5px 0;
 }
-footer .bottom a{
+footer .bottom a:nth-child(1){
   color:  rgb(51, 255, 0);
+  display: inline;
+}
+footer .lower a {
+  display: block;
+  font-size: 10px;
 }
 footer a{
   transition: all 0.3s ease;

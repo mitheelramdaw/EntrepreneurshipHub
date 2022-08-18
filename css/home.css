@@ -86,8 +86,8 @@ section {
     background: var(--primary-dark-grey);
 }
 .home .btn:hover {
-    background: var(--primary-dark-grey);
-    color: #000;
+    background: black;
+    color: var(--blue);
 }
 
 .btn:hover::before {
