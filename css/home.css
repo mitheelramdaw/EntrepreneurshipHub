@@ -588,7 +588,7 @@ header #menu {
 }
 .vision-mission .content h3 {
     font-size: 6rem;
-    border-bottom: 3px solid var(--secondary-teal);
+    border-bottom: 3px solid  rgba(0, 255, 8, 0.898);
     margin-bottom: 20px;
 }
 /* vision-mission ends */
