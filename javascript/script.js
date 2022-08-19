@@ -4,7 +4,7 @@ $(document).ready(function(){
         $('.header-nav').toggleClass('nav-toggle');
     });
     $('#login').click(function(){
-        $('.login-container').addClass('popup');
+        $('.login-container').toggleClass('popup');
     });
     $('.login-container .fa-times').click(function(){
         $('.login-container').removeClass('popup');
