@@ -1,3 +1,6 @@
+:root {
+  --tio-green: rgb(102, 255, 0) ; 
+}
 .flip-card {
     background-color: transparent;
     width: 324px;
@@ -138,7 +141,9 @@ flex-wrap: wrap;
 .navbar-content li{
     list-style: none;
 }
-
+.navigation li:nth-child(2) a {
+  border-bottom: 2px solid var(--tio-green);
+}
 .navbar-content ul{
     display: flex;
 }
