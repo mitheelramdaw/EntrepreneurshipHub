@@ -43,7 +43,7 @@
     outline: none;
 
     text-decoration: none;
-    text-transform: capitalize;
+    /* text-transform: capitalize; */
     transition: all .2s linear;
 
     font-family: 'Open Sans', 'Raleway', sans-serif;
