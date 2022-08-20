@@ -30,7 +30,7 @@
 
     --background:  linear-gradient( to right, rgb(40, 40, 40) 40%, #00f  );
     --background-reverse:  linear-gradient( to left, rgb(40, 40, 40) 40%, #00f  );
-    
+
     --black: rgba(20,20,20);
     --richfield-red: #e74033;
 }
@@ -48,4 +48,76 @@
 
     text-decoration: none;
     font-family: 'Open Sans', 'Raleway', sans-serif;
+}
+body {
+    background: var(--background-reverse);
+}
+h1 {
+    text-align: center;
+    font-size: 80px;
+}
+
+.accordian {
+    width: 70%;
+    max-width: 1440px;
+
+    margin: 90px auto;
+    padding: 45px 45px;
+
+    background-color: white;
+    border-radius: 1.5rem;
+}
+.accordian .courses-wrapper {
+    position: relative;
+    margin: 10px;
+}
+.accordian h3 {
+    font-size: 40px;
+    font-weight: normal;
+    text-decoration: underline;
+    
+    padding-block: 10px;
+}
+.accordian .course-name {
+    cursor: pointer;
+
+    position: relative;
+    padding-block: 10px;
+
+    color: #111;
+    font-size: 20px;
+}
+.accordian .course-name::before {
+    content: "+";
+    color: #000;
+    font-size: 30px;
+
+    position: absolute;
+    top: 50%;
+    right: 0px;
+    transform: translateY(-50%);
+}
+
+.accordian .instructor {
+    color: #333;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.accordian .course-description,
+.accordian .instructor {
+    position: relative;
+    background: #fff;
+    height: 0;
+
+    width: 780px;
+    overflow: hidden;
+    transition: 0.5s;
+
+    font-size: 20px;
+    text-align: justify;
+}
+
+.course {
+    border-bottom: 1px solid #333;
 }
