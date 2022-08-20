@@ -191,7 +191,8 @@ h1 {
 
 .accordian .course.active .course-name::before {
     content: '-';
-    font-size: 30px;
+    font-size: 40px;
+    right: 3px;
 }
 .accordian .course.active .course-description {
     height: fit-content;
