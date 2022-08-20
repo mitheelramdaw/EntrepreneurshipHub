@@ -1,249 +1,748 @@
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Courses</title>
+    <link
+      rel="shortcut icon"
+      href="../images/entrepLogo.png"
+      type="image/x-icon"
+    />
+    <!-- font awesome cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
     <!-- custom styles -->
-    <link rel="stylesheet" href="../css/courses.css">
+    <link rel="stylesheet" href="../css/courses.css" />
 
     <!-- custom scripts -->
     <script src="../javascript/accordian.js" defer></script>
-</head>
-<body>
+  </head>
+  <body>
+    <!-- header section starts  -->
+    <header>
+      <div id="menu" class="fa-solid fa-bars"></div>
+      <a href="#" class="logo">
+        <!-- <i class="fa-solid fa-graduation-cap"></i> -->
+        <img src="../images/entrepLogo.png" alt="Entrepreneurship-Hub Logo" />
+        <img src="../images/aaa-branding.jpeg" alt="aaa branding" />
+        <img src="../images/richfield-branding.jpeg" alt="richfield branding" />
+      </a>
+
+      <nav class="header-nav">
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="courses.html" class="active">Courses</a></li>
+          <li><a href="start-up.html">Start-Ups</a></li>
+          <li><a href="partners.html">Partners</a></li>
+          <li><a href="events.html">Events</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+          <!-- <li><a href="#about">About Us</a></li> -->
+          <!-- REMOVED, NOT HAVE ABOUT US PAGE-->
+        </ul>
+      </nav>
+      <div id="login" class="fa-solid fa-circle-user"></div>
+    </header>
+
     <section class="accordian-body">
-        <div class="accordian">
-            <h1>Courses</h1>
-            
-            <div class="courses-wrapper">
-                <h3>Leadership Skills</h3>
-                <div class="course">
-                    <div class="course-name">Ethics & Values</div>
-                    <div class="course-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam accusantium delectus voluptas repudiandae. Itaque ab nihil dignissimos. Eos dicta harum voluptate iusto eveniet, dolore adipisci, dolor architecto reiciendis quasi quidem nisi voluptates dolorum autem vero saepe nemo minus? Possimus optio laudantium vitae obcaecati at expedita commodi dolor natus delectus iusto repudiandae asperiores corporis nemo molestias, impedit eaque eos, deserunt eius aliquid eveniet neque. Culpa, dignissimos ea! Repudiandae vitae ipsum a perferendis, corporis praesentium consequuntur voluptatibus magnam sed voluptatem, culpa nihil.
-                        <div class="instructor">Instructor:</div>
-                    </div>
-                </div>
-                <div class="course">
-                    <div class="course-name">Personal Leadership</div>
-                    <div class="course-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam accusantium delectus voluptas repudiandae. Itaque ab nihil dignissimos. Eos dicta harum voluptate iusto eveniet, dolore adipisci, dolor architecto reiciendis quasi quidem nisi voluptates dolorum autem vero saepe nemo minus? Possimus optio laudantium vitae obcaecati at expedita commodi dolor natus delectus iusto repudiandae asperiores corporis nemo molestias, impedit eaque eos, deserunt eius aliquid eveniet neque. Culpa, dignissimos ea! Repudiandae vitae ipsum a perferendis, corporis praesentium consequuntur voluptatibus magnam sed voluptatem, culpa nihil.
-                        <div class="instructor">Instructor: Ashleigh Adams / Cola Pullen</div>
-                    </div>
-                </div>
-                <div class="course">
-                    <div class="course-name">Risk-Taking</div>
-                    <div class="course-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam accusantium delectus voluptas repudiandae. Itaque ab nihil dignissimos. Eos dicta harum voluptate iusto eveniet, dolore adipisci, dolor architecto reiciendis quasi quidem nisi voluptates dolorum autem vero saepe nemo minus? Possimus optio laudantium vitae obcaecati at expedita commodi dolor natus delectus iusto repudiandae asperiores corporis nemo molestias, impedit eaque eos, deserunt eius aliquid eveniet neque. Culpa, dignissimos ea! Repudiandae vitae ipsum a perferendis, corporis praesentium consequuntur voluptatibus magnam sed voluptatem, culpa nihil.
-                        <div class="instructor">Instructor:</div>
-                    </div>
-                </div>
-                <div class="course">
-                    <div class="course-name">Problem Solving</div>
-                    <div class="course-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam accusantium delectus voluptas repudiandae. Itaque ab nihil dignissimos. Eos dicta harum voluptate iusto eveniet, dolore adipisci, dolor architecto reiciendis quasi quidem nisi voluptates dolorum autem vero saepe nemo minus? Possimus optio laudantium vitae obcaecati at expedita commodi dolor natus delectus iusto repudiandae asperiores corporis nemo molestias, impedit eaque eos, deserunt eius aliquid eveniet neque. Culpa, dignissimos ea! Repudiandae vitae ipsum a perferendis, corporis praesentium consequuntur voluptatibus magnam sed voluptatem, culpa nihil.
-                        <div class="instructor">Instructor:</div>
-                    </div>
-                </div>
-                <div class="course">
-                    <div class="course-name">Art of Negotiation</div>
-                    <div class="course-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam accusantium delectus voluptas repudiandae. Itaque ab nihil dignissimos. Eos dicta harum voluptate iusto eveniet, dolore adipisci, dolor architecto reiciendis quasi quidem nisi voluptates dolorum autem vero saepe nemo minus? Possimus optio laudantium vitae obcaecati at expedita commodi dolor natus delectus iusto repudiandae asperiores corporis nemo molestias, impedit eaque eos, deserunt eius aliquid eveniet neque. Culpa, dignissimos ea! Repudiandae vitae ipsum a perferendis, corporis praesentium consequuntur voluptatibus magnam sed voluptatem, culpa nihil.
-                        <div class="instructor">Instructor:</div>
-                    </div>
-                </div>
-                <div class="course">
-                    <div class="course-name">Collaboration</div>
-                    <div class="course-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam accusantium delectus voluptas repudiandae. Itaque ab nihil dignissimos. Eos dicta harum voluptate iusto eveniet, dolore adipisci, dolor architecto reiciendis quasi quidem nisi voluptates dolorum autem vero saepe nemo minus? Possimus optio laudantium vitae obcaecati at expedita commodi dolor natus delectus iusto repudiandae asperiores corporis nemo molestias, impedit eaque eos, deserunt eius aliquid eveniet neque. Culpa, dignissimos ea! Repudiandae vitae ipsum a perferendis, corporis praesentium consequuntur voluptatibus magnam sed voluptatem, culpa nihil.
-                        <div class="instructor">Instructor:</div>
-                    </div>
-                </div>
-                <div class="course">
-                    <div class="course-name">Presentation & Communication Skills</div>
-                    <div class="course-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam accusantium delectus voluptas repudiandae. Itaque ab nihil dignissimos. Eos dicta harum voluptate iusto eveniet, dolore adipisci, dolor architecto reiciendis quasi quidem nisi voluptates dolorum autem vero saepe nemo minus? Possimus optio laudantium vitae obcaecati at expedita commodi dolor natus delectus iusto repudiandae asperiores corporis nemo molestias, impedit eaque eos, deserunt eius aliquid eveniet neque. Culpa, dignissimos ea! Repudiandae vitae ipsum a perferendis, corporis praesentium consequuntur voluptatibus magnam sed voluptatem, culpa nihil.
-                        <div class="instructor">Instructor: Jaco Vorster / Cola Pullen</div>
-                    </div>
-                </div>
-                <div class="course">
-                    <div class="course-name">Confidence Skills</div>
-                    <div class="course-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam accusantium delectus voluptas repudiandae. Itaque ab nihil dignissimos. Eos dicta harum voluptate iusto eveniet, dolore adipisci, dolor architecto reiciendis quasi quidem nisi voluptates dolorum autem vero saepe nemo minus? Possimus optio laudantium vitae obcaecati at expedita commodi dolor natus delectus iusto repudiandae asperiores corporis nemo molestias, impedit eaque eos, deserunt eius aliquid eveniet neque. Culpa, dignissimos ea! Repudiandae vitae ipsum a perferendis, corporis praesentium consequuntur voluptatibus magnam sed voluptatem, culpa nihil.
-                        <div class="instructor">Instructor: Jaco Vorster / Cola Pullen</div>
-                    </div>
-                </div>
-                <div class="course">
-                    <div class="course-name">Personal brand & Networking</div>
-                    <div class="course-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam accusantium delectus voluptas repudiandae. Itaque ab nihil dignissimos. Eos dicta harum voluptate iusto eveniet, dolore adipisci, dolor architecto reiciendis quasi quidem nisi voluptates dolorum autem vero saepe nemo minus? Possimus optio laudantium vitae obcaecati at expedita commodi dolor natus delectus iusto repudiandae asperiores corporis nemo molestias, impedit eaque eos, deserunt eius aliquid eveniet neque. Culpa, dignissimos ea! Repudiandae vitae ipsum a perferendis, corporis praesentium consequuntur voluptatibus magnam sed voluptatem, culpa nihil.
-                        <div class="instructor">Instructor:</div>
-                    </div>
-                </div>
-                <div class="course">
-                    <div class="course-name">Holistic Wellness</div>
-                    <div class="course-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam accusantium delectus voluptas repudiandae. Itaque ab nihil dignissimos. Eos dicta harum voluptate iusto eveniet, dolore adipisci, dolor architecto reiciendis quasi quidem nisi voluptates dolorum autem vero saepe nemo minus? Possimus optio laudantium vitae obcaecati at expedita commodi dolor natus delectus iusto repudiandae asperiores corporis nemo molestias, impedit eaque eos, deserunt eius aliquid eveniet neque. Culpa, dignissimos ea! Repudiandae vitae ipsum a perferendis, corporis praesentium consequuntur voluptatibus magnam sed voluptatem, culpa nihil.
-                        <div class="instructor">Instructor: Mariska Swart</div>
-                    </div>
-                </div>
-                <div class="course">
-                    <div class="course-name">Self Efficacy, Locus of Control, Achievement & Motivation</div>
-                    <div class="course-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam accusantium delectus voluptas repudiandae. Itaque ab nihil dignissimos. Eos dicta harum voluptate iusto eveniet, dolore adipisci, dolor architecto reiciendis quasi quidem nisi voluptates dolorum autem vero saepe nemo minus? Possimus optio laudantium vitae obcaecati at expedita commodi dolor natus delectus iusto repudiandae asperiores corporis nemo molestias, impedit eaque eos, deserunt eius aliquid eveniet neque. Culpa, dignissimos ea! Repudiandae vitae ipsum a perferendis, corporis praesentium consequuntur voluptatibus magnam sed voluptatem, culpa nihil.
-                        <div class="instructor">Instructor:</div>
-                    </div>
-                </div>
+      <div class="accordian">
+        <h1>Courses</h1>
+
+        <div class="courses-wrapper">
+          <h3>Leadership Skills</h3>
+          <div class="course">
+            <div class="course-name">Ethics & Values</div>
+            <div class="course-description">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam
+              accusantium delectus voluptas repudiandae. Itaque ab nihil
+              dignissimos. Eos dicta harum voluptate iusto eveniet, dolore
+              adipisci, dolor architecto reiciendis quasi quidem nisi voluptates
+              dolorum autem vero saepe nemo minus? Possimus optio laudantium
+              vitae obcaecati at expedita commodi dolor natus delectus iusto
+              repudiandae asperiores corporis nemo molestias, impedit eaque eos,
+              deserunt eius aliquid eveniet neque. Culpa, dignissimos ea!
+              Repudiandae vitae ipsum a perferendis, corporis praesentium
+              consequuntur voluptatibus magnam sed voluptatem, culpa nihil.
+              <div class="instructor">Instructor:</div>
             </div>
-            
-            <div class="courses-wrapper">
-                <h3>Technical Skills</h3>
-                <div class="course">
-                    <div class="course-name">Business 101 - Setting up your business</div>
-                    <div class="course-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam accusantium delectus voluptas repudiandae. Itaque ab nihil dignissimos. Eos dicta harum voluptate iusto eveniet, dolore adipisci, dolor architecto reiciendis quasi quidem nisi voluptates dolorum autem vero saepe nemo minus? Possimus optio laudantium vitae obcaecati at expedita commodi dolor natus delectus iusto repudiandae asperiores corporis nemo molestias, impedit eaque eos, deserunt eius aliquid eveniet neque. Culpa, dignissimos ea! Repudiandae vitae ipsum a perferendis, corporis praesentium consequuntur voluptatibus magnam sed voluptatem, culpa nihil.
-                        <div class="instructor">Instructor: Edward Hlengwa / Emmanuel Kwarteng</div>
-                    </div>
-                </div>
-                <div class="course">
-                    <div class="course-name">Entrpreneurship Leadership Mindset</div>
-                    <div class="course-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam accusantium delectus voluptas repudiandae. Itaque ab nihil dignissimos. Eos dicta harum voluptate iusto eveniet, dolore adipisci, dolor architecto reiciendis quasi quidem nisi voluptates dolorum autem vero saepe nemo minus? Possimus optio laudantium vitae obcaecati at expedita commodi dolor natus delectus iusto repudiandae asperiores corporis nemo molestias, impedit eaque eos, deserunt eius aliquid eveniet neque. Culpa, dignissimos ea! Repudiandae vitae ipsum a perferendis, corporis praesentium consequuntur voluptatibus magnam sed voluptatem, culpa nihil.
-                        <div class="instructor">Instructor: Dinah Letsoalo</div>
-                    </div>
-                </div>
-                <div class="course">
-                    <div class="course-name">Business Finance 101 and understanding Big Data</div>
-                    <div class="course-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam accusantium delectus voluptas repudiandae. Itaque ab nihil dignissimos. Eos dicta harum voluptate iusto eveniet, dolore adipisci, dolor architecto reiciendis quasi quidem nisi voluptates dolorum autem vero saepe nemo minus? Possimus optio laudantium vitae obcaecati at expedita commodi dolor natus delectus iusto repudiandae asperiores corporis nemo molestias, impedit eaque eos, deserunt eius aliquid eveniet neque. Culpa, dignissimos ea! Repudiandae vitae ipsum a perferendis, corporis praesentium consequuntur voluptatibus magnam sed voluptatem, culpa nihil.
-                        <div class="instructor">Instructor: Carl Velusamy</div>
-                    </div>
-                </div>
-                <div class="course">
-                    <div class="course-name">Marketing: Traditional, Digital, Events, PR, Pricing, Products</div>
-                    <div class="course-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam accusantium delectus voluptas repudiandae. Itaque ab nihil dignissimos. Eos dicta harum voluptate iusto eveniet, dolore adipisci, dolor architecto reiciendis quasi quidem nisi voluptates dolorum autem vero saepe nemo minus? Possimus optio laudantium vitae obcaecati at expedita commodi dolor natus delectus iusto repudiandae asperiores corporis nemo molestias, impedit eaque eos, deserunt eius aliquid eveniet neque. Culpa, dignissimos ea! Repudiandae vitae ipsum a perferendis, corporis praesentium consequuntur voluptatibus magnam sed voluptatem, culpa nihil.
-                        <div class="instructor">Instructor: Mariska Swart</div>
-                    </div>
-                </div>
-                <div class="course">
-                    <div class="course-name">Business Acumen: Market & Competitive Intel, Market Research</div>
-                    <div class="course-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam accusantium delectus voluptas repudiandae. Itaque ab nihil dignissimos. Eos dicta harum voluptate iusto eveniet, dolore adipisci, dolor architecto reiciendis quasi quidem nisi voluptates dolorum autem vero saepe nemo minus? Possimus optio laudantium vitae obcaecati at expedita commodi dolor natus delectus iusto repudiandae asperiores corporis nemo molestias, impedit eaque eos, deserunt eius aliquid eveniet neque. Culpa, dignissimos ea! Repudiandae vitae ipsum a perferendis, corporis praesentium consequuntur voluptatibus magnam sed voluptatem, culpa nihil.
-                        <div class="instructor">Instructor:</div>
-                    </div>
-                </div>
-                <div class="course">
-                    <div class="course-name">Supply Chain: Management & Procurement</div>
-                    <div class="course-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam accusantium delectus voluptas repudiandae. Itaque ab nihil dignissimos. Eos dicta harum voluptate iusto eveniet, dolore adipisci, dolor architecto reiciendis quasi quidem nisi voluptates dolorum autem vero saepe nemo minus? Possimus optio laudantium vitae obcaecati at expedita commodi dolor natus delectus iusto repudiandae asperiores corporis nemo molestias, impedit eaque eos, deserunt eius aliquid eveniet neque. Culpa, dignissimos ea! Repudiandae vitae ipsum a perferendis, corporis praesentium consequuntur voluptatibus magnam sed voluptatem, culpa nihil.
-                        <div class="instructor">Instructor:</div>
-                    </div>
-                </div>
-                <div class="course">
-                    <div class="course-name">Basic Legal: Contracts, SLA's, MoU's, NDA's</div>
-                    <div class="course-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam accusantium delectus voluptas repudiandae. Itaque ab nihil dignissimos. Eos dicta harum voluptate iusto eveniet, dolore adipisci, dolor architecto reiciendis quasi quidem nisi voluptates dolorum autem vero saepe nemo minus? Possimus optio laudantium vitae obcaecati at expedita commodi dolor natus delectus iusto repudiandae asperiores corporis nemo molestias, impedit eaque eos, deserunt eius aliquid eveniet neque. Culpa, dignissimos ea! Repudiandae vitae ipsum a perferendis, corporis praesentium consequuntur voluptatibus magnam sed voluptatem, culpa nihil.
-                        <div class="instructor">Instructor: </div>
-                    </div>
-                </div>
-                <div class="course">
-                    <div class="course-name">Regulatory environment CIPC</div>
-                    <div class="course-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam accusantium delectus voluptas repudiandae. Itaque ab nihil dignissimos. Eos dicta harum voluptate iusto eveniet, dolore adipisci, dolor architecto reiciendis quasi quidem nisi voluptates dolorum autem vero saepe nemo minus? Possimus optio laudantium vitae obcaecati at expedita commodi dolor natus delectus iusto repudiandae asperiores corporis nemo molestias, impedit eaque eos, deserunt eius aliquid eveniet neque. Culpa, dignissimos ea! Repudiandae vitae ipsum a perferendis, corporis praesentium consequuntur voluptatibus magnam sed voluptatem, culpa nihil.
-                        <div class="instructor">Instructor: Paul Mushonga</div>
-                    </div>
-                </div>
-                <div class="course">
-                    <div class="course-name">Environment, Sustainability & Governance</div>
-                    <div class="course-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam accusantium delectus voluptas repudiandae. Itaque ab nihil dignissimos. Eos dicta harum voluptate iusto eveniet, dolore adipisci, dolor architecto reiciendis quasi quidem nisi voluptates dolorum autem vero saepe nemo minus? Possimus optio laudantium vitae obcaecati at expedita commodi dolor natus delectus iusto repudiandae asperiores corporis nemo molestias, impedit eaque eos, deserunt eius aliquid eveniet neque. Culpa, dignissimos ea! Repudiandae vitae ipsum a perferendis, corporis praesentium consequuntur voluptatibus magnam sed voluptatem, culpa nihil.
-                        <div class="instructor">Instructor: </div>
-                    </div>
-                </div>
-                <div class="course">
-                    <div class="course-name">Customer Relationship Management</div>
-                    <div class="course-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam accusantium delectus voluptas repudiandae. Itaque ab nihil dignissimos. Eos dicta harum voluptate iusto eveniet, dolore adipisci, dolor architecto reiciendis quasi quidem nisi voluptates dolorum autem vero saepe nemo minus? Possimus optio laudantium vitae obcaecati at expedita commodi dolor natus delectus iusto repudiandae asperiores corporis nemo molestias, impedit eaque eos, deserunt eius aliquid eveniet neque. Culpa, dignissimos ea! Repudiandae vitae ipsum a perferendis, corporis praesentium consequuntur voluptatibus magnam sed voluptatem, culpa nihil.
-                        <div class="instructor">Instructor: Ditumiso Mahlaba</div>
-                    </div>
-                </div>
-                <div class="course">
-                    <div class="course-name">Fund Channels & Proposals for funding</div>
-                    <div class="course-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam accusantium delectus voluptas repudiandae. Itaque ab nihil dignissimos. Eos dicta harum voluptate iusto eveniet, dolore adipisci, dolor architecto reiciendis quasi quidem nisi voluptates dolorum autem vero saepe nemo minus? Possimus optio laudantium vitae obcaecati at expedita commodi dolor natus delectus iusto repudiandae asperiores corporis nemo molestias, impedit eaque eos, deserunt eius aliquid eveniet neque. Culpa, dignissimos ea! Repudiandae vitae ipsum a perferendis, corporis praesentium consequuntur voluptatibus magnam sed voluptatem, culpa nihil.
-                        <div class="instructor">Instructor: Carl Velusamy</div>
-                    </div>
-                </div>
+          </div>
+          <div class="course">
+            <div class="course-name">Personal Leadership</div>
+            <div class="course-description">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam
+              accusantium delectus voluptas repudiandae. Itaque ab nihil
+              dignissimos. Eos dicta harum voluptate iusto eveniet, dolore
+              adipisci, dolor architecto reiciendis quasi quidem nisi voluptates
+              dolorum autem vero saepe nemo minus? Possimus optio laudantium
+              vitae obcaecati at expedita commodi dolor natus delectus iusto
+              repudiandae asperiores corporis nemo molestias, impedit eaque eos,
+              deserunt eius aliquid eveniet neque. Culpa, dignissimos ea!
+              Repudiandae vitae ipsum a perferendis, corporis praesentium
+              consequuntur voluptatibus magnam sed voluptatem, culpa nihil.
+              <div class="instructor">
+                Instructor: Ashleigh Adams / Cola Pullen
+              </div>
             </div>
-            
-            <div class="courses-wrapper">
-                <h3>Digital Skills</h3>
-                <div class="course">
-                    <div class="course-name">Creating a digital strategy & implementation thereof</div>
-                    <div class="course-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam accusantium delectus voluptas repudiandae. Itaque ab nihil dignissimos. Eos dicta harum voluptate iusto eveniet, dolore adipisci, dolor architecto reiciendis quasi quidem nisi voluptates dolorum autem vero saepe nemo minus? Possimus optio laudantium vitae obcaecati at expedita commodi dolor natus delectus iusto repudiandae asperiores corporis nemo molestias, impedit eaque eos, deserunt eius aliquid eveniet neque. Culpa, dignissimos ea! Repudiandae vitae ipsum a perferendis, corporis praesentium consequuntur voluptatibus magnam sed voluptatem, culpa nihil.
-                        <div class="instructor">Instructor: Thando Xaba</div>
-                    </div>
-                </div>
-                <div class="course">
-                    <div class="course-name">IT Bootcamps to enhance technical digital capabilities</div>
-                    <div class="course-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam accusantium delectus voluptas repudiandae. Itaque ab nihil dignissimos. Eos dicta harum voluptate iusto eveniet, dolore adipisci, dolor architecto reiciendis quasi quidem nisi voluptates dolorum autem vero saepe nemo minus? Possimus optio laudantium vitae obcaecati at expedita commodi dolor natus delectus iusto repudiandae asperiores corporis nemo molestias, impedit eaque eos, deserunt eius aliquid eveniet neque. Culpa, dignissimos ea! Repudiandae vitae ipsum a perferendis, corporis praesentium consequuntur voluptatibus magnam sed voluptatem, culpa nihil.
-                        <div class="instructor">Instructor: Raymond Shamba</div>
-                    </div>
-                </div>
-                <div class="course">
-                    <div class="course-name">Coding Bootcamps</div>
-                    <div class="course-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam accusantium delectus voluptas repudiandae. Itaque ab nihil dignissimos. Eos dicta harum voluptate iusto eveniet, dolore adipisci, dolor architecto reiciendis quasi quidem nisi voluptates dolorum autem vero saepe nemo minus? Possimus optio laudantium vitae obcaecati at expedita commodi dolor natus delectus iusto repudiandae asperiores corporis nemo molestias, impedit eaque eos, deserunt eius aliquid eveniet neque. Culpa, dignissimos ea! Repudiandae vitae ipsum a perferendis, corporis praesentium consequuntur voluptatibus magnam sed voluptatem, culpa nihil.
-                        <div class="instructor">Instructor: Royal Goronga</div>
-                    </div>
-                </div>
+          </div>
+          <div class="course">
+            <div class="course-name">Risk-Taking</div>
+            <div class="course-description">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam
+              accusantium delectus voluptas repudiandae. Itaque ab nihil
+              dignissimos. Eos dicta harum voluptate iusto eveniet, dolore
+              adipisci, dolor architecto reiciendis quasi quidem nisi voluptates
+              dolorum autem vero saepe nemo minus? Possimus optio laudantium
+              vitae obcaecati at expedita commodi dolor natus delectus iusto
+              repudiandae asperiores corporis nemo molestias, impedit eaque eos,
+              deserunt eius aliquid eveniet neque. Culpa, dignissimos ea!
+              Repudiandae vitae ipsum a perferendis, corporis praesentium
+              consequuntur voluptatibus magnam sed voluptatem, culpa nihil.
+              <div class="instructor">Instructor:</div>
             </div>
-            
-            <div class="courses-wrapper">
-                <h3>Mentoring</h3>
-                <div class="course">
-                    <div class="course-name">Managing Success & Failure</div>
-                    <div class="course-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam accusantium delectus voluptas repudiandae. Itaque ab nihil dignissimos. Eos dicta harum voluptate iusto eveniet, dolore adipisci, dolor architecto reiciendis quasi quidem nisi voluptates dolorum autem vero saepe nemo minus? Possimus optio laudantium vitae obcaecati at expedita commodi dolor natus delectus iusto repudiandae asperiores corporis nemo molestias, impedit eaque eos, deserunt eius aliquid eveniet neque. Culpa, dignissimos ea! Repudiandae vitae ipsum a perferendis, corporis praesentium consequuntur voluptatibus magnam sed voluptatem, culpa nihil.
-                        <div class="instructor">Instructor:</div>
-                    </div>
-                </div>
-                <div class="course">
-                    <div class="course-name">Soft skills for success</div>
-                    <div class="course-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam accusantium delectus voluptas repudiandae. Itaque ab nihil dignissimos. Eos dicta harum voluptate iusto eveniet, dolore adipisci, dolor architecto reiciendis quasi quidem nisi voluptates dolorum autem vero saepe nemo minus? Possimus optio laudantium vitae obcaecati at expedita commodi dolor natus delectus iusto repudiandae asperiores corporis nemo molestias, impedit eaque eos, deserunt eius aliquid eveniet neque. Culpa, dignissimos ea! Repudiandae vitae ipsum a perferendis, corporis praesentium consequuntur voluptatibus magnam sed voluptatem, culpa nihil.
-                        <div class="instructor">Instructor: Luyanda Nkohla</div>
-                    </div>
-                </div>
-                <div class="course">
-                    <div class="course-name">Opening up bridging capital (i.e networks)</div>
-                    <div class="course-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam accusantium delectus voluptas repudiandae. Itaque ab nihil dignissimos. Eos dicta harum voluptate iusto eveniet, dolore adipisci, dolor architecto reiciendis quasi quidem nisi voluptates dolorum autem vero saepe nemo minus? Possimus optio laudantium vitae obcaecati at expedita commodi dolor natus delectus iusto repudiandae asperiores corporis nemo molestias, impedit eaque eos, deserunt eius aliquid eveniet neque. Culpa, dignissimos ea! Repudiandae vitae ipsum a perferendis, corporis praesentium consequuntur voluptatibus magnam sed voluptatem, culpa nihil.
-                        <div class="instructor">Instructor:</div>
-                    </div>
-                </div>
+          </div>
+          <div class="course">
+            <div class="course-name">Problem Solving</div>
+            <div class="course-description">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam
+              accusantium delectus voluptas repudiandae. Itaque ab nihil
+              dignissimos. Eos dicta harum voluptate iusto eveniet, dolore
+              adipisci, dolor architecto reiciendis quasi quidem nisi voluptates
+              dolorum autem vero saepe nemo minus? Possimus optio laudantium
+              vitae obcaecati at expedita commodi dolor natus delectus iusto
+              repudiandae asperiores corporis nemo molestias, impedit eaque eos,
+              deserunt eius aliquid eveniet neque. Culpa, dignissimos ea!
+              Repudiandae vitae ipsum a perferendis, corporis praesentium
+              consequuntur voluptatibus magnam sed voluptatem, culpa nihil.
+              <div class="instructor">Instructor:</div>
             </div>
-            
-            <div class="courses-wrapper">
-                <h3>Coaching</h3>
-                <div class="course">
-                    <div class="course-name">Business coaching - high performance venture, teams coaching</div>
-                    <div class="course-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam accusantium delectus voluptas repudiandae. Itaque ab nihil dignissimos. Eos dicta harum voluptate iusto eveniet, dolore adipisci, dolor architecto reiciendis quasi quidem nisi voluptates dolorum autem vero saepe nemo minus? Possimus optio laudantium vitae obcaecati at expedita commodi dolor natus delectus iusto repudiandae asperiores corporis nemo molestias, impedit eaque eos, deserunt eius aliquid eveniet neque. Culpa, dignissimos ea! Repudiandae vitae ipsum a perferendis, corporis praesentium consequuntur voluptatibus magnam sed voluptatem, culpa nihil.
-                        <div class="instructor">Instructor:</div>
-                    </div>
-                </div>
-                <div class="course">
-                    <div class="course-name">Financial & Relationship, business trends coaching</div>
-                    <div class="course-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam accusantium delectus voluptas repudiandae. Itaque ab nihil dignissimos. Eos dicta harum voluptate iusto eveniet, dolore adipisci, dolor architecto reiciendis quasi quidem nisi voluptates dolorum autem vero saepe nemo minus? Possimus optio laudantium vitae obcaecati at expedita commodi dolor natus delectus iusto repudiandae asperiores corporis nemo molestias, impedit eaque eos, deserunt eius aliquid eveniet neque. Culpa, dignissimos ea! Repudiandae vitae ipsum a perferendis, corporis praesentium consequuntur voluptatibus magnam sed voluptatem, culpa nihil.
-                        <div class="instructor">Instructor:</div>
-                    </div>
-                </div>
-                <div class="course">
-                    <div class="course-name">Preparation to pitch successfully to venture capitalists. Use lecturers & external experts</div>
-                    <div class="course-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam accusantium delectus voluptas repudiandae. Itaque ab nihil dignissimos. Eos dicta harum voluptate iusto eveniet, dolore adipisci, dolor architecto reiciendis quasi quidem nisi voluptates dolorum autem vero saepe nemo minus? Possimus optio laudantium vitae obcaecati at expedita commodi dolor natus delectus iusto repudiandae asperiores corporis nemo molestias, impedit eaque eos, deserunt eius aliquid eveniet neque. Culpa, dignissimos ea! Repudiandae vitae ipsum a perferendis, corporis praesentium consequuntur voluptatibus magnam sed voluptatem, culpa nihil.
-                        <div class="instructor">Instructor:</div>
-                    </div>
-                </div>
+          </div>
+          <div class="course">
+            <div class="course-name">Art of Negotiation</div>
+            <div class="course-description">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam
+              accusantium delectus voluptas repudiandae. Itaque ab nihil
+              dignissimos. Eos dicta harum voluptate iusto eveniet, dolore
+              adipisci, dolor architecto reiciendis quasi quidem nisi voluptates
+              dolorum autem vero saepe nemo minus? Possimus optio laudantium
+              vitae obcaecati at expedita commodi dolor natus delectus iusto
+              repudiandae asperiores corporis nemo molestias, impedit eaque eos,
+              deserunt eius aliquid eveniet neque. Culpa, dignissimos ea!
+              Repudiandae vitae ipsum a perferendis, corporis praesentium
+              consequuntur voluptatibus magnam sed voluptatem, culpa nihil.
+              <div class="instructor">Instructor:</div>
             </div>
-            
-            <div class="courses-wrapper">
-                <h3>Creative</h3>
-                <div class="course">
-                    <div class="course-name">Navigating your creativity in New Media</div>
-                    <div class="course-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam accusantium delectus voluptas repudiandae. Itaque ab nihil dignissimos. Eos dicta harum voluptate iusto eveniet, dolore adipisci, dolor architecto reiciendis quasi quidem nisi voluptates dolorum autem vero saepe nemo minus? Possimus optio laudantium vitae obcaecati at expedita commodi dolor natus delectus iusto repudiandae asperiores corporis nemo molestias, impedit eaque eos, deserunt eius aliquid eveniet neque. Culpa, dignissimos ea! Repudiandae vitae ipsum a perferendis, corporis praesentium consequuntur voluptatibus magnam sed voluptatem, culpa nihil.
-                        <div class="instructor">Instructor: Elrie Visser</div>
-                    </div>
-                </div>
-                <div class="course">
-                    <div class="course-name">Building a digital marketing strategy</div>
-                    <div class="course-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam accusantium delectus voluptas repudiandae. Itaque ab nihil dignissimos. Eos dicta harum voluptate iusto eveniet, dolore adipisci, dolor architecto reiciendis quasi quidem nisi voluptates dolorum autem vero saepe nemo minus? Possimus optio laudantium vitae obcaecati at expedita commodi dolor natus delectus iusto repudiandae asperiores corporis nemo molestias, impedit eaque eos, deserunt eius aliquid eveniet neque. Culpa, dignissimos ea! Repudiandae vitae ipsum a perferendis, corporis praesentium consequuntur voluptatibus magnam sed voluptatem, culpa nihil.
-                        <div class="instructor">Instructor: Mariska Swart</div>
-                    </div>
-                </div>
-                <div class="course">
-                    <div class="course-name">Crafting a brand & corporate identity - A storytelling brand(work with personal branding)</div>
-                    <div class="course-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam accusantium delectus voluptas repudiandae. Itaque ab nihil dignissimos. Eos dicta harum voluptate iusto eveniet, dolore adipisci, dolor architecto reiciendis quasi quidem nisi voluptates dolorum autem vero saepe nemo minus? Possimus optio laudantium vitae obcaecati at expedita commodi dolor natus delectus iusto repudiandae asperiores corporis nemo molestias, impedit eaque eos, deserunt eius aliquid eveniet neque. Culpa, dignissimos ea! Repudiandae vitae ipsum a perferendis, corporis praesentium consequuntur voluptatibus magnam sed voluptatem, culpa nihil.
-                        <div class="instructor">Instructor: Mariska Swart</div>
-                    </div>
-                </div>
+          </div>
+          <div class="course">
+            <div class="course-name">Collaboration</div>
+            <div class="course-description">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam
+              accusantium delectus voluptas repudiandae. Itaque ab nihil
+              dignissimos. Eos dicta harum voluptate iusto eveniet, dolore
+              adipisci, dolor architecto reiciendis quasi quidem nisi voluptates
+              dolorum autem vero saepe nemo minus? Possimus optio laudantium
+              vitae obcaecati at expedita commodi dolor natus delectus iusto
+              repudiandae asperiores corporis nemo molestias, impedit eaque eos,
+              deserunt eius aliquid eveniet neque. Culpa, dignissimos ea!
+              Repudiandae vitae ipsum a perferendis, corporis praesentium
+              consequuntur voluptatibus magnam sed voluptatem, culpa nihil.
+              <div class="instructor">Instructor:</div>
             </div>
-            
+          </div>
+          <div class="course">
+            <div class="course-name">Presentation & Communication Skills</div>
+            <div class="course-description">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam
+              accusantium delectus voluptas repudiandae. Itaque ab nihil
+              dignissimos. Eos dicta harum voluptate iusto eveniet, dolore
+              adipisci, dolor architecto reiciendis quasi quidem nisi voluptates
+              dolorum autem vero saepe nemo minus? Possimus optio laudantium
+              vitae obcaecati at expedita commodi dolor natus delectus iusto
+              repudiandae asperiores corporis nemo molestias, impedit eaque eos,
+              deserunt eius aliquid eveniet neque. Culpa, dignissimos ea!
+              Repudiandae vitae ipsum a perferendis, corporis praesentium
+              consequuntur voluptatibus magnam sed voluptatem, culpa nihil.
+              <div class="instructor">
+                Instructor: Jaco Vorster / Cola Pullen
+              </div>
+            </div>
+          </div>
+          <div class="course">
+            <div class="course-name">Confidence Skills</div>
+            <div class="course-description">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam
+              accusantium delectus voluptas repudiandae. Itaque ab nihil
+              dignissimos. Eos dicta harum voluptate iusto eveniet, dolore
+              adipisci, dolor architecto reiciendis quasi quidem nisi voluptates
+              dolorum autem vero saepe nemo minus? Possimus optio laudantium
+              vitae obcaecati at expedita commodi dolor natus delectus iusto
+              repudiandae asperiores corporis nemo molestias, impedit eaque eos,
+              deserunt eius aliquid eveniet neque. Culpa, dignissimos ea!
+              Repudiandae vitae ipsum a perferendis, corporis praesentium
+              consequuntur voluptatibus magnam sed voluptatem, culpa nihil.
+              <div class="instructor">
+                Instructor: Jaco Vorster / Cola Pullen
+              </div>
+            </div>
+          </div>
+          <div class="course">
+            <div class="course-name">Personal brand & Networking</div>
+            <div class="course-description">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam
+              accusantium delectus voluptas repudiandae. Itaque ab nihil
+              dignissimos. Eos dicta harum voluptate iusto eveniet, dolore
+              adipisci, dolor architecto reiciendis quasi quidem nisi voluptates
+              dolorum autem vero saepe nemo minus? Possimus optio laudantium
+              vitae obcaecati at expedita commodi dolor natus delectus iusto
+              repudiandae asperiores corporis nemo molestias, impedit eaque eos,
+              deserunt eius aliquid eveniet neque. Culpa, dignissimos ea!
+              Repudiandae vitae ipsum a perferendis, corporis praesentium
+              consequuntur voluptatibus magnam sed voluptatem, culpa nihil.
+              <div class="instructor">Instructor:</div>
+            </div>
+          </div>
+          <div class="course">
+            <div class="course-name">Holistic Wellness</div>
+            <div class="course-description">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam
+              accusantium delectus voluptas repudiandae. Itaque ab nihil
+              dignissimos. Eos dicta harum voluptate iusto eveniet, dolore
+              adipisci, dolor architecto reiciendis quasi quidem nisi voluptates
+              dolorum autem vero saepe nemo minus? Possimus optio laudantium
+              vitae obcaecati at expedita commodi dolor natus delectus iusto
+              repudiandae asperiores corporis nemo molestias, impedit eaque eos,
+              deserunt eius aliquid eveniet neque. Culpa, dignissimos ea!
+              Repudiandae vitae ipsum a perferendis, corporis praesentium
+              consequuntur voluptatibus magnam sed voluptatem, culpa nihil.
+              <div class="instructor">Instructor: Mariska Swart</div>
+            </div>
+          </div>
+          <div class="course">
+            <div class="course-name">
+              Self Efficacy, Locus of Control, Achievement & Motivation
+            </div>
+            <div class="course-description">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam
+              accusantium delectus voluptas repudiandae. Itaque ab nihil
+              dignissimos. Eos dicta harum voluptate iusto eveniet, dolore
+              adipisci, dolor architecto reiciendis quasi quidem nisi voluptates
+              dolorum autem vero saepe nemo minus? Possimus optio laudantium
+              vitae obcaecati at expedita commodi dolor natus delectus iusto
+              repudiandae asperiores corporis nemo molestias, impedit eaque eos,
+              deserunt eius aliquid eveniet neque. Culpa, dignissimos ea!
+              Repudiandae vitae ipsum a perferendis, corporis praesentium
+              consequuntur voluptatibus magnam sed voluptatem, culpa nihil.
+              <div class="instructor">Instructor:</div>
+            </div>
+          </div>
         </div>
+
+        <div class="courses-wrapper">
+          <h3>Technical Skills</h3>
+          <div class="course">
+            <div class="course-name">
+              Business 101 - Setting up your business
+            </div>
+            <div class="course-description">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam
+              accusantium delectus voluptas repudiandae. Itaque ab nihil
+              dignissimos. Eos dicta harum voluptate iusto eveniet, dolore
+              adipisci, dolor architecto reiciendis quasi quidem nisi voluptates
+              dolorum autem vero saepe nemo minus? Possimus optio laudantium
+              vitae obcaecati at expedita commodi dolor natus delectus iusto
+              repudiandae asperiores corporis nemo molestias, impedit eaque eos,
+              deserunt eius aliquid eveniet neque. Culpa, dignissimos ea!
+              Repudiandae vitae ipsum a perferendis, corporis praesentium
+              consequuntur voluptatibus magnam sed voluptatem, culpa nihil.
+              <div class="instructor">
+                Instructor: Edward Hlengwa / Emmanuel Kwarteng
+              </div>
+            </div>
+          </div>
+          <div class="course">
+            <div class="course-name">Entrpreneurship Leadership Mindset</div>
+            <div class="course-description">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam
+              accusantium delectus voluptas repudiandae. Itaque ab nihil
+              dignissimos. Eos dicta harum voluptate iusto eveniet, dolore
+              adipisci, dolor architecto reiciendis quasi quidem nisi voluptates
+              dolorum autem vero saepe nemo minus? Possimus optio laudantium
+              vitae obcaecati at expedita commodi dolor natus delectus iusto
+              repudiandae asperiores corporis nemo molestias, impedit eaque eos,
+              deserunt eius aliquid eveniet neque. Culpa, dignissimos ea!
+              Repudiandae vitae ipsum a perferendis, corporis praesentium
+              consequuntur voluptatibus magnam sed voluptatem, culpa nihil.
+              <div class="instructor">Instructor: Dinah Letsoalo</div>
+            </div>
+          </div>
+          <div class="course">
+            <div class="course-name">
+              Business Finance 101 and understanding Big Data
+            </div>
+            <div class="course-description">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam
+              accusantium delectus voluptas repudiandae. Itaque ab nihil
+              dignissimos. Eos dicta harum voluptate iusto eveniet, dolore
+              adipisci, dolor architecto reiciendis quasi quidem nisi voluptates
+              dolorum autem vero saepe nemo minus? Possimus optio laudantium
+              vitae obcaecati at expedita commodi dolor natus delectus iusto
+              repudiandae asperiores corporis nemo molestias, impedit eaque eos,
+              deserunt eius aliquid eveniet neque. Culpa, dignissimos ea!
+              Repudiandae vitae ipsum a perferendis, corporis praesentium
+              consequuntur voluptatibus magnam sed voluptatem, culpa nihil.
+              <div class="instructor">Instructor: Carl Velusamy</div>
+            </div>
+          </div>
+          <div class="course">
+            <div class="course-name">
+              Marketing: Traditional, Digital, Events, PR, Pricing, Products
+            </div>
+            <div class="course-description">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam
+              accusantium delectus voluptas repudiandae. Itaque ab nihil
+              dignissimos. Eos dicta harum voluptate iusto eveniet, dolore
+              adipisci, dolor architecto reiciendis quasi quidem nisi voluptates
+              dolorum autem vero saepe nemo minus? Possimus optio laudantium
+              vitae obcaecati at expedita commodi dolor natus delectus iusto
+              repudiandae asperiores corporis nemo molestias, impedit eaque eos,
+              deserunt eius aliquid eveniet neque. Culpa, dignissimos ea!
+              Repudiandae vitae ipsum a perferendis, corporis praesentium
+              consequuntur voluptatibus magnam sed voluptatem, culpa nihil.
+              <div class="instructor">Instructor: Mariska Swart</div>
+            </div>
+          </div>
+          <div class="course">
+            <div class="course-name">
+              Business Acumen: Market & Competitive Intel, Market Research
+            </div>
+            <div class="course-description">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam
+              accusantium delectus voluptas repudiandae. Itaque ab nihil
+              dignissimos. Eos dicta harum voluptate iusto eveniet, dolore
+              adipisci, dolor architecto reiciendis quasi quidem nisi voluptates
+              dolorum autem vero saepe nemo minus? Possimus optio laudantium
+              vitae obcaecati at expedita commodi dolor natus delectus iusto
+              repudiandae asperiores corporis nemo molestias, impedit eaque eos,
+              deserunt eius aliquid eveniet neque. Culpa, dignissimos ea!
+              Repudiandae vitae ipsum a perferendis, corporis praesentium
+              consequuntur voluptatibus magnam sed voluptatem, culpa nihil.
+              <div class="instructor">Instructor:</div>
+            </div>
+          </div>
+          <div class="course">
+            <div class="course-name">
+              Supply Chain: Management & Procurement
+            </div>
+            <div class="course-description">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam
+              accusantium delectus voluptas repudiandae. Itaque ab nihil
+              dignissimos. Eos dicta harum voluptate iusto eveniet, dolore
+              adipisci, dolor architecto reiciendis quasi quidem nisi voluptates
+              dolorum autem vero saepe nemo minus? Possimus optio laudantium
+              vitae obcaecati at expedita commodi dolor natus delectus iusto
+              repudiandae asperiores corporis nemo molestias, impedit eaque eos,
+              deserunt eius aliquid eveniet neque. Culpa, dignissimos ea!
+              Repudiandae vitae ipsum a perferendis, corporis praesentium
+              consequuntur voluptatibus magnam sed voluptatem, culpa nihil.
+              <div class="instructor">Instructor:</div>
+            </div>
+          </div>
+          <div class="course">
+            <div class="course-name">
+              Basic Legal: Contracts, SLA's, MoU's, NDA's
+            </div>
+            <div class="course-description">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam
+              accusantium delectus voluptas repudiandae. Itaque ab nihil
+              dignissimos. Eos dicta harum voluptate iusto eveniet, dolore
+              adipisci, dolor architecto reiciendis quasi quidem nisi voluptates
+              dolorum autem vero saepe nemo minus? Possimus optio laudantium
+              vitae obcaecati at expedita commodi dolor natus delectus iusto
+              repudiandae asperiores corporis nemo molestias, impedit eaque eos,
+              deserunt eius aliquid eveniet neque. Culpa, dignissimos ea!
+              Repudiandae vitae ipsum a perferendis, corporis praesentium
+              consequuntur voluptatibus magnam sed voluptatem, culpa nihil.
+              <div class="instructor">Instructor:</div>
+            </div>
+          </div>
+          <div class="course">
+            <div class="course-name">Regulatory environment CIPC</div>
+            <div class="course-description">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam
+              accusantium delectus voluptas repudiandae. Itaque ab nihil
+              dignissimos. Eos dicta harum voluptate iusto eveniet, dolore
+              adipisci, dolor architecto reiciendis quasi quidem nisi voluptates
+              dolorum autem vero saepe nemo minus? Possimus optio laudantium
+              vitae obcaecati at expedita commodi dolor natus delectus iusto
+              repudiandae asperiores corporis nemo molestias, impedit eaque eos,
+              deserunt eius aliquid eveniet neque. Culpa, dignissimos ea!
+              Repudiandae vitae ipsum a perferendis, corporis praesentium
+              consequuntur voluptatibus magnam sed voluptatem, culpa nihil.
+              <div class="instructor">Instructor: Paul Mushonga</div>
+            </div>
+          </div>
+          <div class="course">
+            <div class="course-name">
+              Environment, Sustainability & Governance
+            </div>
+            <div class="course-description">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam
+              accusantium delectus voluptas repudiandae. Itaque ab nihil
+              dignissimos. Eos dicta harum voluptate iusto eveniet, dolore
+              adipisci, dolor architecto reiciendis quasi quidem nisi voluptates
+              dolorum autem vero saepe nemo minus? Possimus optio laudantium
+              vitae obcaecati at expedita commodi dolor natus delectus iusto
+              repudiandae asperiores corporis nemo molestias, impedit eaque eos,
+              deserunt eius aliquid eveniet neque. Culpa, dignissimos ea!
+              Repudiandae vitae ipsum a perferendis, corporis praesentium
+              consequuntur voluptatibus magnam sed voluptatem, culpa nihil.
+              <div class="instructor">Instructor:</div>
+            </div>
+          </div>
+          <div class="course">
+            <div class="course-name">Customer Relationship Management</div>
+            <div class="course-description">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam
+              accusantium delectus voluptas repudiandae. Itaque ab nihil
+              dignissimos. Eos dicta harum voluptate iusto eveniet, dolore
+              adipisci, dolor architecto reiciendis quasi quidem nisi voluptates
+              dolorum autem vero saepe nemo minus? Possimus optio laudantium
+              vitae obcaecati at expedita commodi dolor natus delectus iusto
+              repudiandae asperiores corporis nemo molestias, impedit eaque eos,
+              deserunt eius aliquid eveniet neque. Culpa, dignissimos ea!
+              Repudiandae vitae ipsum a perferendis, corporis praesentium
+              consequuntur voluptatibus magnam sed voluptatem, culpa nihil.
+              <div class="instructor">Instructor: Ditumiso Mahlaba</div>
+            </div>
+          </div>
+          <div class="course">
+            <div class="course-name">Fund Channels & Proposals for funding</div>
+            <div class="course-description">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam
+              accusantium delectus voluptas repudiandae. Itaque ab nihil
+              dignissimos. Eos dicta harum voluptate iusto eveniet, dolore
+              adipisci, dolor architecto reiciendis quasi quidem nisi voluptates
+              dolorum autem vero saepe nemo minus? Possimus optio laudantium
+              vitae obcaecati at expedita commodi dolor natus delectus iusto
+              repudiandae asperiores corporis nemo molestias, impedit eaque eos,
+              deserunt eius aliquid eveniet neque. Culpa, dignissimos ea!
+              Repudiandae vitae ipsum a perferendis, corporis praesentium
+              consequuntur voluptatibus magnam sed voluptatem, culpa nihil.
+              <div class="instructor">Instructor: Carl Velusamy</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="courses-wrapper">
+          <h3>Digital Skills</h3>
+          <div class="course">
+            <div class="course-name">
+              Creating a digital strategy & implementation thereof
+            </div>
+            <div class="course-description">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam
+              accusantium delectus voluptas repudiandae. Itaque ab nihil
+              dignissimos. Eos dicta harum voluptate iusto eveniet, dolore
+              adipisci, dolor architecto reiciendis quasi quidem nisi voluptates
+              dolorum autem vero saepe nemo minus? Possimus optio laudantium
+              vitae obcaecati at expedita commodi dolor natus delectus iusto
+              repudiandae asperiores corporis nemo molestias, impedit eaque eos,
+              deserunt eius aliquid eveniet neque. Culpa, dignissimos ea!
+              Repudiandae vitae ipsum a perferendis, corporis praesentium
+              consequuntur voluptatibus magnam sed voluptatem, culpa nihil.
+              <div class="instructor">Instructor: Thando Xaba</div>
+            </div>
+          </div>
+          <div class="course">
+            <div class="course-name">
+              IT Bootcamps to enhance technical digital capabilities
+            </div>
+            <div class="course-description">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam
+              accusantium delectus voluptas repudiandae. Itaque ab nihil
+              dignissimos. Eos dicta harum voluptate iusto eveniet, dolore
+              adipisci, dolor architecto reiciendis quasi quidem nisi voluptates
+              dolorum autem vero saepe nemo minus? Possimus optio laudantium
+              vitae obcaecati at expedita commodi dolor natus delectus iusto
+              repudiandae asperiores corporis nemo molestias, impedit eaque eos,
+              deserunt eius aliquid eveniet neque. Culpa, dignissimos ea!
+              Repudiandae vitae ipsum a perferendis, corporis praesentium
+              consequuntur voluptatibus magnam sed voluptatem, culpa nihil.
+              <div class="instructor">Instructor: Raymond Shamba</div>
+            </div>
+          </div>
+          <div class="course">
+            <div class="course-name">Coding Bootcamps</div>
+            <div class="course-description">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam
+              accusantium delectus voluptas repudiandae. Itaque ab nihil
+              dignissimos. Eos dicta harum voluptate iusto eveniet, dolore
+              adipisci, dolor architecto reiciendis quasi quidem nisi voluptates
+              dolorum autem vero saepe nemo minus? Possimus optio laudantium
+              vitae obcaecati at expedita commodi dolor natus delectus iusto
+              repudiandae asperiores corporis nemo molestias, impedit eaque eos,
+              deserunt eius aliquid eveniet neque. Culpa, dignissimos ea!
+              Repudiandae vitae ipsum a perferendis, corporis praesentium
+              consequuntur voluptatibus magnam sed voluptatem, culpa nihil.
+              <div class="instructor">Instructor: Royal Goronga</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="courses-wrapper">
+          <h3>Mentoring</h3>
+          <div class="course">
+            <div class="course-name">Managing Success & Failure</div>
+            <div class="course-description">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam
+              accusantium delectus voluptas repudiandae. Itaque ab nihil
+              dignissimos. Eos dicta harum voluptate iusto eveniet, dolore
+              adipisci, dolor architecto reiciendis quasi quidem nisi voluptates
+              dolorum autem vero saepe nemo minus? Possimus optio laudantium
+              vitae obcaecati at expedita commodi dolor natus delectus iusto
+              repudiandae asperiores corporis nemo molestias, impedit eaque eos,
+              deserunt eius aliquid eveniet neque. Culpa, dignissimos ea!
+              Repudiandae vitae ipsum a perferendis, corporis praesentium
+              consequuntur voluptatibus magnam sed voluptatem, culpa nihil.
+              <div class="instructor">Instructor:</div>
+            </div>
+          </div>
+          <div class="course">
+            <div class="course-name">Soft skills for success</div>
+            <div class="course-description">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam
+              accusantium delectus voluptas repudiandae. Itaque ab nihil
+              dignissimos. Eos dicta harum voluptate iusto eveniet, dolore
+              adipisci, dolor architecto reiciendis quasi quidem nisi voluptates
+              dolorum autem vero saepe nemo minus? Possimus optio laudantium
+              vitae obcaecati at expedita commodi dolor natus delectus iusto
+              repudiandae asperiores corporis nemo molestias, impedit eaque eos,
+              deserunt eius aliquid eveniet neque. Culpa, dignissimos ea!
+              Repudiandae vitae ipsum a perferendis, corporis praesentium
+              consequuntur voluptatibus magnam sed voluptatem, culpa nihil.
+              <div class="instructor">Instructor: Luyanda Nkohla</div>
+            </div>
+          </div>
+          <div class="course">
+            <div class="course-name">
+              Opening up bridging capital (i.e networks)
+            </div>
+            <div class="course-description">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam
+              accusantium delectus voluptas repudiandae. Itaque ab nihil
+              dignissimos. Eos dicta harum voluptate iusto eveniet, dolore
+              adipisci, dolor architecto reiciendis quasi quidem nisi voluptates
+              dolorum autem vero saepe nemo minus? Possimus optio laudantium
+              vitae obcaecati at expedita commodi dolor natus delectus iusto
+              repudiandae asperiores corporis nemo molestias, impedit eaque eos,
+              deserunt eius aliquid eveniet neque. Culpa, dignissimos ea!
+              Repudiandae vitae ipsum a perferendis, corporis praesentium
+              consequuntur voluptatibus magnam sed voluptatem, culpa nihil.
+              <div class="instructor">Instructor:</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="courses-wrapper">
+          <h3>Coaching</h3>
+          <div class="course">
+            <div class="course-name">
+              Business coaching - high performance venture, teams coaching
+            </div>
+            <div class="course-description">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam
+              accusantium delectus voluptas repudiandae. Itaque ab nihil
+              dignissimos. Eos dicta harum voluptate iusto eveniet, dolore
+              adipisci, dolor architecto reiciendis quasi quidem nisi voluptates
+              dolorum autem vero saepe nemo minus? Possimus optio laudantium
+              vitae obcaecati at expedita commodi dolor natus delectus iusto
+              repudiandae asperiores corporis nemo molestias, impedit eaque eos,
+              deserunt eius aliquid eveniet neque. Culpa, dignissimos ea!
+              Repudiandae vitae ipsum a perferendis, corporis praesentium
+              consequuntur voluptatibus magnam sed voluptatem, culpa nihil.
+              <div class="instructor">Instructor:</div>
+            </div>
+          </div>
+          <div class="course">
+            <div class="course-name">
+              Financial & Relationship, business trends coaching
+            </div>
+            <div class="course-description">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam
+              accusantium delectus voluptas repudiandae. Itaque ab nihil
+              dignissimos. Eos dicta harum voluptate iusto eveniet, dolore
+              adipisci, dolor architecto reiciendis quasi quidem nisi voluptates
+              dolorum autem vero saepe nemo minus? Possimus optio laudantium
+              vitae obcaecati at expedita commodi dolor natus delectus iusto
+              repudiandae asperiores corporis nemo molestias, impedit eaque eos,
+              deserunt eius aliquid eveniet neque. Culpa, dignissimos ea!
+              Repudiandae vitae ipsum a perferendis, corporis praesentium
+              consequuntur voluptatibus magnam sed voluptatem, culpa nihil.
+              <div class="instructor">Instructor:</div>
+            </div>
+          </div>
+          <div class="course">
+            <div class="course-name">
+              Preparation to pitch successfully to venture capitalists. Use
+              lecturers & external experts
+            </div>
+            <div class="course-description">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam
+              accusantium delectus voluptas repudiandae. Itaque ab nihil
+              dignissimos. Eos dicta harum voluptate iusto eveniet, dolore
+              adipisci, dolor architecto reiciendis quasi quidem nisi voluptates
+              dolorum autem vero saepe nemo minus? Possimus optio laudantium
+              vitae obcaecati at expedita commodi dolor natus delectus iusto
+              repudiandae asperiores corporis nemo molestias, impedit eaque eos,
+              deserunt eius aliquid eveniet neque. Culpa, dignissimos ea!
+              Repudiandae vitae ipsum a perferendis, corporis praesentium
+              consequuntur voluptatibus magnam sed voluptatem, culpa nihil.
+              <div class="instructor">Instructor:</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="courses-wrapper">
+          <h3>Creative</h3>
+          <div class="course">
+            <div class="course-name">
+              Navigating your creativity in New Media
+            </div>
+            <div class="course-description">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam
+              accusantium delectus voluptas repudiandae. Itaque ab nihil
+              dignissimos. Eos dicta harum voluptate iusto eveniet, dolore
+              adipisci, dolor architecto reiciendis quasi quidem nisi voluptates
+              dolorum autem vero saepe nemo minus? Possimus optio laudantium
+              vitae obcaecati at expedita commodi dolor natus delectus iusto
+              repudiandae asperiores corporis nemo molestias, impedit eaque eos,
+              deserunt eius aliquid eveniet neque. Culpa, dignissimos ea!
+              Repudiandae vitae ipsum a perferendis, corporis praesentium
+              consequuntur voluptatibus magnam sed voluptatem, culpa nihil.
+              <div class="instructor">Instructor: Elrie Visser</div>
+            </div>
+          </div>
+          <div class="course">
+            <div class="course-name">Building a digital marketing strategy</div>
+            <div class="course-description">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam
+              accusantium delectus voluptas repudiandae. Itaque ab nihil
+              dignissimos. Eos dicta harum voluptate iusto eveniet, dolore
+              adipisci, dolor architecto reiciendis quasi quidem nisi voluptates
+              dolorum autem vero saepe nemo minus? Possimus optio laudantium
+              vitae obcaecati at expedita commodi dolor natus delectus iusto
+              repudiandae asperiores corporis nemo molestias, impedit eaque eos,
+              deserunt eius aliquid eveniet neque. Culpa, dignissimos ea!
+              Repudiandae vitae ipsum a perferendis, corporis praesentium
+              consequuntur voluptatibus magnam sed voluptatem, culpa nihil.
+              <div class="instructor">Instructor: Mariska Swart</div>
+            </div>
+          </div>
+          <div class="course">
+            <div class="course-name">
+              Crafting a brand & corporate identity - A storytelling brand(work
+              with personal branding)
+            </div>
+            <div class="course-description">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam
+              accusantium delectus voluptas repudiandae. Itaque ab nihil
+              dignissimos. Eos dicta harum voluptate iusto eveniet, dolore
+              adipisci, dolor architecto reiciendis quasi quidem nisi voluptates
+              dolorum autem vero saepe nemo minus? Possimus optio laudantium
+              vitae obcaecati at expedita commodi dolor natus delectus iusto
+              repudiandae asperiores corporis nemo molestias, impedit eaque eos,
+              deserunt eius aliquid eveniet neque. Culpa, dignissimos ea!
+              Repudiandae vitae ipsum a perferendis, corporis praesentium
+              consequuntur voluptatibus magnam sed voluptatem, culpa nihil.
+              <div class="instructor">Instructor: Mariska Swart</div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
-</body>
+
+    <!-- FOOTER CODE STARTS -->
+    <footer class="bodyFooter">
+      <div class="content">
+        <div class="left box">
+          <div class="upper">
+            <div class="topic">About us</div>
+            <p>
+              We are a diverse group of individuals, each feeding off the
+              strengths of one another. Our skills and talents intertwined like
+              the roots of a mighty oak tree that forms a strong and sturdy
+              structure. We aim to assist each other and bring out the best in
+              those that work with us. The future of Tech is in your very hands.
+              Snatch it with both hands and run with it....
+            </p>
+          </div>
+
+          <div class="lower">
+            <div class="topic">Contact us</div>
+            <div class="phone">
+              <a href="#"><i class="fas fa-phone-volume"></i>086 132 1321</a>
+            </div>
+            <div class="email">
+              <a href="#"
+                ><i class="fas fa-envelope"></i>cheatcode@cheatcode.tech</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="middle box">
+          <!-- insert following in NAV BAR Home, Meet our Start-ups, Events, Partners, Contact Us -->
+          <div class="topic">Navigation Zone</div>
+          <div><a href="index.html">Home</a></div>
+          <div><a href="./html/coursesEzra.html">Courses</a></div>
+          <div><a href="./html/start-up.html">Start Up</a></div>
+          <div><a href="./html/partners.html">Partners</a></div>
+          <div><a href="./html/events.html">Events</a></div>
+          <div><a href="./html/contact.html">Contact Us</a></div>
+        </div>
+
+        <div class="right box">
+          <div class="topic">Begin your Journey</div>
+          <form action="#">
+            <input type="text" placeholder="Enter email address" />
+            <input type="submit" name="" value="Send" />
+            <div class="media-icons">
+              <a href="https://www.facebook.com/thisisrichfield/"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a href="https://www.instagram.com/thisisrichfield/?hl=en"
+                ><i class="fab fa-instagram"></i
+              ></a>
+              <a href="https://twitter.com/thisisrichfield?lang=en"
+                ><i class="fab fa-twitter"></i
+              ></a>
+            </div>
+          </form>
+        </div>
+      </div>
+      
+      <div class="bottom">
+        <p>Copyright © 2022 <a href="#">cheatcode</a> All rights reserved</p>
+      </div>
+
+      <!-- <div class="footerImages">
+        <img src="images/richfield-logo.jpg" alt="richfield logo">
+        <img src="images/aaa-logo.jpg" alt="AAA Logo">
+      </div> -->
+    </footer>
+    <!-- FOOTER CODE ENDS -->
+  </body>
 </html>

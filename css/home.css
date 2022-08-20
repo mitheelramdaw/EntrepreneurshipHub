@@ -588,7 +588,7 @@ header #menu {
 .vision-mission .content {
     flex: 1 1 40rem;
     font-size: 1.7rem;
-    text-align: justify;
+    text-align: left;
 
     border-radius: 10px;
     background: var(--black);
@@ -741,12 +741,6 @@ footer a:hover {
     height: 87%;
 
 }
-
-
-
-
-
-
 
 /* media queries */
 @media (max-width:1100px) {
