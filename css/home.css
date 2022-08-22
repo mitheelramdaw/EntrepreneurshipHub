@@ -503,9 +503,10 @@ header #menu {
     text-decoration: none;
     width: 190px;
 }
-
+/* CHANGES LABELS - WHAT WE OFFER */
 .slider-nav a:hover {
-    background: var(--tio-green);
+    /* background: rgb(40, 40, 40); */ /* GREY  BACKGROUND */
+    background: #000428;
     color: #fff;
 }
 
