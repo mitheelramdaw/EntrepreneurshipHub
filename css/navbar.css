@@ -11,29 +11,109 @@
 }
 
 :root {
-    /* Custom properties: */
-
-    /* font-family */
-    --ff-sans-serif: 'Poppins', sans-serif;
-
     /* font-size */
-    --txt-sml: 1rem;
-    --txt-med: 1.25rem;
-    --txt-lrg: 1.38rem;
+    --txt-16: 1rem;
+    --txt-20: 1.25rem;
+    --txt-24: 1.5rem;
+    --txt-32: 2rem;
     --heading-sml: 1.75rem;
     --heading-med: 2rem;
-    --heading-lrg: 2.3rem;
+    --heading-lrg: 3rem;
 
     /* colours */
+    --primary-blue: #205d91;
+    --primary-dark-grey: #878786;
+    
+    --secondary-purple: #504171;
+    --secondary-green: #007d7a;
+    --secondary-teal: #59993d;
+    --secondary-orange: #f07e19;
+    --secondary-yellow: #f2c400;
+    --secondary-red: #b61823;
+
+    --tio-green: rgb(102, 255, 0) ; 
+    --tio-new-green: rgb(51, 255, 0);
+    --black: rgba(20,20,20);
     --blue: #0044ff;
-    --light-blue: #004e92;
     --dark-blue: #000428;
+    --light-blue: #004e92;
     --richfield-red: #e74033;
-    --blue-gradient: linear-gradient(to left, #000428 0%, #004e92 100%);
-    --background:   linear-gradient( to right, rgb(40, 40, 40) 40%, #00f  );
-    --background-reverse: linear-gradient(to right,#00f 0%,/* #f0f */ #39FF14);
+    --blue-gradient: linear-gradient(-90deg, #000428, #004e92);
+    --background:  linear-gradient( to right, rgb(40, 40, 40) 40%, #00f  );
+    --background-reverse:  linear-gradient( to left, rgb(40, 40, 40) 40%, #00f  );
 }
-body {
+
+header {
+    width: 100%;
+    padding: 1rem 7%;
+    background: var(--background);
+    box-shadow: 0 .1rem .3rem rgba(0, 0, 0, .3);
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+header .logo {
+    color: #fff;
+    font-size: 1.5rem;
+}
+header .logo img {
+    width: 50px;
+    height: 50px;
+    background: var(--primary-dark-grey);
+}
+header .header-nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    list-style: none;
+}
+
+header .header-nav ul li {
+    margin: 0 var(--txt-16);
+}
+
+header .header-nav ul li a {
+    font-size: var(--txt-20);
+    color: inherit;
+}
+
+header .header-nav ul li a.active,
+header .header-nav ul li a:hover {
+    border-bottom: 2px solid var(--tio-green);
+}
+
+header #login,
+header #menu {
+    font-size: var(--txt-24);
+    color: #fff;
+    cursor: pointer;
+}
+header #login, 
+header #login span {
+    text-transform: lowercase;
+    color: #fff;
+}
+header #login:hover, 
+header #login span:hover {
+    color: var(--tio-green);
+}
+
+header #menu {
+    color: #fff;
+    display: none;
+    cursor: pointer;
+    font-size: var(--heading-lrg);
+}
+
+/* body {
     color: var(--dark-blue);
     background: linear-gradient( to right, rgb(40, 40, 40) 40%, #00f  );
     font-family: var(--ff-sans-serif);
@@ -41,15 +121,15 @@ body {
     text-align: justify;
 }
 .contain {
-    /* padding-inline: 80px; */
+    padding-inline: 80px;
     width: 95%;
     margin: 0 auto;
 }
 .navbar {
     font-size: 18px;
     padding-block: 15px;
-    /* background: var(--background); */
-    background: linear-gradient( to right, rgb(40, 40, 40) 40%, #00f  ); /* NAV BAR BACKGROUND*/
+    background: var(--background);
+    background: linear-gradient( to right, rgb(40, 40, 40) 40%, #00f  );
     box-shadow: 0 .1rem .3rem rgba(0, 0, 0, .3);
     width: 100%;
 
@@ -71,7 +151,7 @@ body {
 .navbar a {
     display: block;
     text-decoration: none;
-    /* color: var(--dark-blue); */
+    color: var(--dark-blue);
   
 }
 .navigation {
@@ -96,4 +176,4 @@ body {
 .navigation a:hover {
     border-bottom: 2px solid rgb(51, 255, 0);
     transition: all 0.1s ease;
-}
+} */

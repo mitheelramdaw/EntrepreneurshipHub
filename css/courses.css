@@ -103,12 +103,15 @@ header .header-nav ul li a:hover {
 
 header #login,
 header #menu {
-    font-size: var(--heading-med);
+    font-size: var(--txt-24);
     color: #fff;
     cursor: pointer;
 }
-
-header #login:hover {
+header #login span {
+    text-transform: lowercase;
+}
+header #login:hover, 
+header #login span:hover {
     color: var(--tio-green);
 }
 
