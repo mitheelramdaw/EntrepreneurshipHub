@@ -1,0 +1,99 @@
+::-webkit-scrollbar{
+    display: none;
+    }  
+  
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+*, *::after, *::before {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    /* Custom properties: */
+
+    /* font-family */
+    --ff-sans-serif: 'Poppins', sans-serif;
+
+    /* font-size */
+    --txt-sml: 1rem;
+    --txt-med: 1.25rem;
+    --txt-lrg: 1.38rem;
+    --heading-sml: 1.75rem;
+    --heading-med: 2rem;
+    --heading-lrg: 2.3rem;
+
+    /* colours */
+    --blue: #0044ff;
+    --light-blue: #004e92;
+    --dark-blue: #000428;
+    --richfield-red: #e74033;
+    --blue-gradient: linear-gradient(to left, #000428 0%, #004e92 100%);
+    --background:   linear-gradient( to right, rgb(40, 40, 40) 40%, #00f  );
+    --background-reverse: linear-gradient(to right,#00f 0%,/* #f0f */ #39FF14);
+}
+body {
+    color: var(--dark-blue);
+    background: linear-gradient( to right, rgb(40, 40, 40) 40%, #00f  );
+    font-family: var(--ff-sans-serif);
+    font-size: var(--txt-sml);
+    text-align: justify;
+}
+.contain {
+    /* padding-inline: 80px; */
+    width: 95%;
+    margin: 0 auto;
+}
+.navbar {
+    font-size: 18px;
+    padding-block: 15px;
+    /* background: var(--background); */
+    background: linear-gradient( to right, rgb(40, 40, 40) 40%, #00f  ); /* NAV BAR BACKGROUND*/
+    box-shadow: 0 .1rem .3rem rgba(0, 0, 0, .3);
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.navbar h1 {
+    border-block: 3px solid var(--dark-blue);
+    font-size: var(--heading-med);
+    font-weight: 900;
+    padding: 15px;
+    cursor: pointer;
+}
+.navbar h1:hover {
+    color: #fff;
+    border-block: 3px solid #fff;
+}
+.navbar a {
+    display: block;
+    text-decoration: none;
+    /* color: var(--dark-blue); */
+  
+}
+.navigation {
+    height: 50px;
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.navigation li {
+    list-style: none;
+    font-weight: bold;
+    
+    display: flex;
+    align-items: center;
+}
+.navigation a {
+    display: block;
+    color: white;
+    text-decoration: none;
+}
+.navigation a:hover {
+    border-bottom: 2px solid rgb(51, 255, 0);
+    transition: all 0.1s ease;
+}
