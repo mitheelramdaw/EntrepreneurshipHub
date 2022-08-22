@@ -454,6 +454,121 @@ header #menu {
 
 /* what we offer section */
 
+.offering {
+    padding-bottom: 50px;
+}
+.offering h2 {
+    text-align: center;
+    font-size: 7.5rem;
+    width: fit-content;
+    margin: 0 auto;
+
+    /* padding: .5rem 25rem; */
+    /* background: var(--background); */
+    /* border-radius: 1.5rem; */
+    /* box-shadow: 0 .1rem .3rem rgb(0,0,0, .6); */
+}
+
+.slider-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 25px auto;
+    /* box-shadow: 0 .1rem .3rem rgb(0,0,0, .3); */
+    /* background: var(--background); */
+    border-radius: 5rem;
+    /* padding-block: 8rem; */
+}
+
+.slider-wrapper .slider-nav {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+    align-self: center;
+}
+
+.slider-nav a {
+    background-color: #fff;
+    color: #000;
+    padding: 10px;
+    font-size: 2rem;
+    clip-path: circle();
+    text-decoration: none;
+}
+
+.slider-nav a:hover {
+    background: var(--tio-green);
+    color: #fff;
+}
+
+.slider {
+    width: 650px;
+    min-height: 500px;
+    display: flex;
+    text-align: justify;
+    margin-right: 20px;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    /* outline: 2px solid black; */
+}
+
+.slide {
+    color: #000;
+    flex-shrink: 0;
+    width: 100%;
+    height: 100%;
+    scroll-behavior:smooth;
+    scroll-snap-align: start;
+    background: #fff;
+    border-radius: 2.5rem;
+}
+
+.slide .content {
+    padding-inline: 25px;
+    font-size: 1.3rem;
+}
+
+.slide .content h3 {
+    font-size: 3rem;
+    text-align: center;
+    padding-block: 20px;
+    border-bottom: 2px solid #000;
+}
+
+.slide .content .btn {
+    text-align: center;
+    margin-block: 30px;
+    width: 100%;
+    color: #fff;
+    background-color: #000;
+}
+
+.slide .content .btn:hover {
+    background: var(--black);
+    color: var(--tio-new-green) ;
+    font-weight: 600;
+    outline: 2px solid #000;
+}
+
+.slide .content .btn a {
+    color: inherit;
+}
+
+.slide .image img {
+    object-fit: cover;
+    width: 650px;
+    height: 400px;
+    /* border-bottom: 2px solid #000; */
+    border-top-left-radius: 2.5rem;
+    border-top-right-radius: 2.5rem;
+}
+
+.slide .content p {
+    padding-top: 20px;
+}
 
 /* what we offer section ends */
 
