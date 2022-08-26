@@ -181,6 +181,32 @@ h1 {
     font-size: 18px;
     text-align: justify;
 }
+.accordian .course-description a[href="login.html"] {
+    display: block;
+
+    /* color: #000;
+    background: var(--blue);
+    padding: 10px 20px;
+    border-radius: 20px; */
+    
+    width: fit-content;
+    font-size: 1.2rem;
+    margin-block: 1rem;
+    padding: 0.7rem 3rem;
+
+    color: inherit;
+    cursor: pointer;
+    border-radius: 1.5rem;
+    background: var(--blue);
+    box-shadow: 0 .1rem .3rem rgba(0, 0, 0, .3);
+
+    position: relative;
+    transform: translateX(200%);
+}
+.accordian .course-description a[href="login.html"]:hover {
+    background: var(--primary-dark-grey);
+    color: #fff;
+}
 .accordian .instructor {
     color: #333;
     margin-top: 10px;
