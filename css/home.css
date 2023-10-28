@@ -32,7 +32,9 @@
     --light-blue: #004e92;
     --richfield-red: #e74033;
     --blue-gradient: linear-gradient(-90deg, #000428, #004e92);
+    --reverse-blue-gradient: linear-gradient(-90deg, #004e92, #000428);
     --background:  linear-gradient( to right, rgb(40, 40, 40) 40%, #00f  );
+    --btn-background:  linear-gradient( to right, #000428 4%, #00f  );
     --background-reverse:  linear-gradient( to left, rgb(40, 40, 40) 40%, #00f  );
 }
 * {
@@ -75,7 +77,8 @@ section {
     color: inherit;
     cursor: pointer;
     border-radius: 1.5rem;
-    background: var(--blue);
+    /* background: var(--blue-gradient); */
+    background: var(--btn-background);
     box-shadow: 0 .1rem .3rem rgba(0, 0, 0, .3);
 
     position: relative;
@@ -86,8 +89,12 @@ section {
     background: var(--primary-dark-grey);
 }
 .home .btn:hover {
-    background: black;
-    color: var(--blue);
+    /* background: var(--reverse-blue-gradient); */
+    background: var(--blue-gradient);
+    /* color: var(--blue); */
+    color: white;
+    
+    
 }
 
 .btn:hover::before {
@@ -424,6 +431,7 @@ header #menu {
     font-size: 6rem;
     color: white;
     /* border-bottom: 5px solid white; */
+    cursor: pointer;
 }
 .home h1 span{
     color: #0044ff;
@@ -438,13 +446,14 @@ header #menu {
     font-weight: 600;
     font-size: 1.9rem;
 
-    color: black;
-    background: #eee;
-    border-radius: 5rem;
+    color: white;
+    background: var(--blue-gradient);
+    border-radius: 1rem;
 
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
 }
 .home p img {
     width: 5%;
